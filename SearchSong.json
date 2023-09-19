@@ -1,0 +1,2235 @@
+
+{ 
+    "All":[
+    {
+                "id":1,
+                "playlist_type":false,
+                "playlist":null,
+                "genere":"hindi",
+                "song_name":"jiyo re bahubal",
+                "album_name":"bahubali 2",
+                "singers":[
+                    {
+                        "name" : "Daler Mehandi",
+                        "image":"assests/Artists/Daler.jpeg"
+                    },
+                    {
+                        "name" : "Ramya Behra",
+                        "image":"assests/Artists/ramya.jpeg"
+                    }
+                ],
+                "image_source":"assests/images/bahubali.jpeg",
+                "quality":{"low":"assests/songs/JiyoReBaahubali.mp3","medium":"","high":""},
+                "release_date":"2017" 
+    },
+    {
+        "id":0,
+                "playlist_type":false,
+                "playlist":null,
+                "genere":"hindi",
+                "song_name":"Paro",
+                "album_name":"pyaar ka panchnaman 2",
+                
+                "singers":[
+                    {
+                        "name" : "Shipra Goyal",
+                        "image":"assests/Artists/Shipra.jpeg"
+                    },
+                    {
+                        "name" : "Dev Negi",
+                        "image":"assests/Artists/DevNegi.jpeg"
+                    }
+                ],
+                "image_source":"assests/images/paro.jpeg",
+                "quality":{"low":"assests/songs/paro.mp3","medium":"","high":""},
+                "release_date":"2018"  
+    },
+    {
+        "id":2,
+                "playlist_type":false,
+                "playlist":null,
+                "song_name":"hamsafar",
+                "genere":"hindi",
+                "album_name":"badrinath ki dhulania",
+                "singers":[
+                    {
+                        "name" : "Akhil Sachhdeve",
+                        "image":"assests/Artists/akhil.jpeg"
+                    },
+                    {
+                        "name" : "Mansheel Gujral",
+                        "image":"assests/Artists/mansheel.jpeg"
+                    }
+                ],
+                "image_source":"assests/images/humsafar.jpeg",
+                "quality":{"low":"assests/songs/Humsafar_Full_Video_Varun_Alia_Bhatt_Akhil_Sachdeva_Badrinath_Ki.mp3","medium":"","high":""},
+                "release_date":"2018"
+    },
+    {
+        "id":3,
+                "playlist_type":false,
+                "playlist":null,
+                "song_name":"Ik vaari Aa",
+                "album_name":"Raabta",
+                "genere":"hindi",
+               
+                "singers":[
+                    {
+                        "name" : "Arjit Singh",
+                        "image":"assests/Artists/arjit.jpeg"
+                    },
+                    {
+                        "name" : "Jubin Nautiyal",
+                        "image":"assests/Artists/Jubin Nautiyal.jpeg"
+                    }
+                ],
+                "image_source":"assests/images/ikk vari a.jpeg",
+                "quality":{"low":"assests/songs/ekVaari.mp3","medium":"","high":""},
+                "release_date":"2017"
+    },
+    {
+        "id":4,
+                "playlist_type":false,
+                "playlist":null,
+                "song_name":"ladki kar gayi chull",
+                "album_name":"kapoor and sons",
+                "genere":"hindi",
+                "singers":[
+                    {
+                        "name" : "Badshah",
+                        "image":"assests/Artists/badshah.jpeg"
+                    },
+                    {
+                        "name" : "Neha Kakkar",
+                        "image":"assests/Artists/neha.jpeg"
+                    }
+                ],
+                "image_source":"assests/images/kargyichul.jpeg",
+                "quality":{"low":"assests/songs/karGayiChull.mp3","medium":"","high":""},
+                "release_date":"2016"
+    },
+    {
+        "id":6,
+                "playlist_type":false,
+                "playlist":null,
+                "song_name":"raabta",
+                "album_name":"raabta",
+                "genere":"hindi",
+                "singers":[
+                    {
+                        "name" : "Arjit Singh",
+                        "image":"assests/Artists/arjit.jpeg"
+                    },
+                    {
+                        "name" : "Nikhita Gandhi",
+                        "image":"assests/Artists/nikhita.jpeg"
+                    }
+                ],
+                "image_source":"assests/images/raabta.jpeg",
+                "quality":{"low":"assests/songs/Raabta.mp3","medium":"","high":""},
+                "release_date":"2017"
+    },
+    {
+        "id":5,
+                "playlist_type":false,
+                "playlist":null,
+                "song_name":"let me love you",
+                "album_name":"Encore",
+                "singers":[
+
+                    {
+                        "name" : "Justin Babier",
+                        "image":"assests/Artists/justin.jpeg"
+                    },
+                    {
+                        "name" : "DJ Snake",
+                        "image":"assests/Artists/dj.jpeg"
+                    }
+                ],
+                "image_source":"assests/images/letmeloveyou.jpeg",
+                "quality":{"low":"assests/songs/letMeLoveYou.mp3","medium":"","high":""},
+                "release_date":"2016"
+    },
+    {
+        
+        "id":7,
+        "playlist_type":false,
+        "playlist":null,
+        "song_name":"shape of you",
+        
+        "album_name":"shape of you",
+        "singers":[
+            {
+                "name" : "Ed Sheeran",
+                "image":"assests/Artists/sheeran.jpeg"
+            },
+            {
+                "name" : "Jason Koeing",
+                "image":"assests/Artists/jason.jpeg"
+            }
+        ],
+        "image_source":"assests/images/shape of you.jpeg",
+        "quality":{"low":"assests/songs/𝐒𝐡𝐚𝐩𝐞𝐨𝐟𝐲𝐨𝐮.mp3","medium":"","high":""},
+        "release_date":"2017"
+    },
+    {
+        "id":8 ,
+                "playlist_type":false,
+                "playlist":null,
+                "song_name":"Beautiful",
+                "album_name":"Beautiful",
+                "singers":[
+                    {
+                        "name" : "Miland Gaba",
+                        "image":"assests/Artists/miland.jpeg"
+                    },
+                    {
+                        "name" : "oshin brar",
+                        "image":"assests/Artists/oshin.jpeg"
+                    }
+                ],
+                "image_source":"assests/images/beautiful.jpeg",
+                "quality":{"low":"assests/songs/Beautiful.mp3","medium":"","high":""},
+                "release_date":"2017"  
+    }
+    ,{
+        "id":9,
+        "playlist_type":false,
+        "playlist":null,
+        "song_name":"O Bedardeya",
+        "album_name":"Tu jhooti mai Makkar",
+        "singers":[
+            {
+                "name" : "Arjit Singh",
+                "image":"assests/Artists/arjit.jpeg"
+            },
+            {
+                "name" : "Pritam",
+                "image":"assests/Artists/pritam.jpeg"
+            }
+        ],
+        "image_source":"assests/images/bedardeya.jpeg",
+        "quality":{"low":"assests/songs/bedardeyea.mp3","medium":"","high":""},
+        "release_date":"2023"
+    },
+    {
+        "id":10,
+        "playlist_type":false,
+        "playlist":null,
+        "song_name":"Tere vaste",
+        "album_name":"Zara Hatke Zara Bachke ",
+        "singers":[
+            {
+                "name" : "Sachin-jigar",
+                "image":"assests/Artists/sachin.jpeg"
+            },
+            {
+                "name" : "Varun jain",
+                "image":"assests/Artists/varun.jpeg"
+            }
+        ],
+        "image_source":"assests/images/terevaste.jpeg",
+        "quality":{"low":"assests/songs/terevaste.mp3","medium":"","high":""},
+        "release_date":"2023"
+    },
+    {
+        "id":11,
+        "playlist_type":false,
+        "playlist":null,
+        "song_name":"Tere Hawale",
+        "album_name":"Laal Singh Chadwa",
+        "singers":[
+            {
+                "name" : "Arjit Singh",
+                "image":"assests/Artists/arjit.jpeg"
+            },
+            {
+                "name" : "Pritam",
+                "image":"assests/Artists/pritam.jpeg"
+            }
+        ],
+        "image_source":"assests/images/laal.jpeg",
+        "quality":{"low":"assests/songs/terehawale.mp3","medium":"","high":""},
+        "release_date":"2022"
+    },
+    {
+        "id":12,
+                "playlist_type":false,
+                "playlist":null,
+                "song_name":"Kya Chaiye",
+                "album_name":"Zara Hatke Zara Bachke",
+                "singers":[
+                    {
+                        "name" : "Arjit Singh",
+                        "image":"assests/Artists/arjit.jpeg"
+                    },
+                    {
+                        "name" : "Shruti Rane",
+                        "image":"assests/Artists/shruti.jpeg"
+                    }
+                ],
+                "image_source":"assests/images/kyachahiye.jpeg",
+                "quality":{"low":"assests/songs/kyachaiye.mp3","medium":"","high":""},
+                "release_date":"2023"
+    },
+    {
+        "id":13,
+                "playlist_type":false,
+                "playlist":null,
+                "song_name":"Udd Ja Kale Kawan",
+                "album_name":"Gaddar 2",
+                "singers":[
+                    {
+                        "name" : "Uddit Naryan",
+                        "image":"assests/Artists/uddit.jpeg"
+                    },
+                    {
+                        "name" : "alka yagnik",
+                        "image":"assests/Artists/alka.jpeg"
+                    }
+                ],
+                "image_source":"assests/images/uddja.jpeg",
+                "quality":{"low":"assests/songs/uddjaakale.mp3","medium":"","high":""},
+                "release_date":"2023"
+    },
+    {
+        "id":14,
+                "playlist_type":false,
+                "playlist":null,
+                "song_name":"What Jhumka",
+                "album_name":"Rocky Aur Rani Kii Prem Kahaani",
+                "singers":[
+                    {
+                        "name" : "Arjit Singh",
+                        "image":"assests/Artists/arjit.jpeg"
+                    },
+                    {
+                        "name" : "Jonita Gandhi",
+                        "image":"assests/Artists/gandhi.jpeg"
+                    }
+                ],
+                "image_source":"assests/images/jhumka.jpeg",
+                "quality":{"low":"assests/songs/whatjumka.mp3","medium":"","high":""},
+                "release_date":"2023"
+    },
+    {
+        
+        "id":2,
+        "playlist_type":false,
+        "playlist":null,
+        "song_name":"Humsafar",
+        "album_name":"badrinath ki dhulania",
+        "singers":[
+
+            {
+                "name" : "Akhil Sachhdeve",
+                "image":"assests/Artists/akhil.jpeg"
+            },
+            {
+                "name" : "Mansheel Gujral",
+                "image":"assests/Artists/mansheel.jpeg"
+            }
+        ],
+        "image_source":"assests/images/humsafar.jpeg",
+        "quality":{"low":"assests/songs/Humsafar_Full_Video_Varun_Alia_Bhatt_Akhil_Sachdeva_Badrinath_Ki.mp3","medium":"","high":""},
+        "release_date":"2019"
+    },
+    {
+        "id":15,
+                "playlist_type":false,
+                "playlist":null,
+                "song_name":"Baarishein",
+                "album_name":"Baarishein",
+                "singers":[
+                    {
+                        "name" : "Anuv Jain",
+                        "image":"assests/Artists/anuv.jpeg"
+                    },
+                    {
+                        "name" : "Mansheel Gujral",
+                        "image":"assests/images/eps10-white-user-icon-or-logo-in-simple-flat-trendy-modern-style-isolated-on-black-background-free-vector.jpg"
+                    }
+                ],
+                "image_source":"assests/images/baarish.jpeg",
+                "quality":{"low":"assests/songs/BAARISHEIN.mp3","medium":"","high":""},
+                "release_date":"2018" 
+    },
+    {
+        "id":16,
+                "playlist_type":false,
+                "playlist":null,
+                "song_name":"Choo lo",
+                "album_name":"Aalas ka pedh",
+                "singers":[
+                    {
+                        "name" : "Local Train",
+                        "image":"assests/Artists/the local.jpeg"
+                    },
+                    {
+                        "name" : "unknown",
+                        "image":"assests/images/eps10-white-user-icon-or-logo-in-simple-flat-trendy-modern-style-isolated-on-black-background-free-vector.jpg"
+                    }
+                ],
+                "image_source":"assests/images/choloo.jpeg",
+                "quality":{"low":"assests/songs/TheLocal.mp3","medium":"","high":""},
+                "release_date":"2015"
+    },
+    {
+        "id":17,
+        "playlist_type":false,
+        "playlist":null,
+        "song_name":"With_You",
+        "album_name":"With_You",
+        "singers":[
+            {
+                "name" : "Ap Dhillon",
+                "image":"assests/Artists/dhillon.jpeg"
+            },
+            {
+                "name" : "unknown",
+                "image":"assests/images/eps10-white-user-icon-or-logo-in-simple-flat-trendy-modern-style-isolated-on-black-background-free-vector.jpg"
+            }
+        ],
+        "image_source":"assests/images/withyou.jpeg",
+        "quality":{"low":"assests/songs/WithYou.mp3","medium":"","high":""},
+        "release_date":"2023"
+    },
+    {
+        "id":18,
+                "playlist_type":false,
+                "playlist":null,
+                "song_name":"Lamhey",
+                "album_name":"Lamhey",
+                "singers":[
+                    {
+                        "name" : "Anubha Bajaj",
+                        "image":"assests/Artists/anubha.jpeg"
+                    },
+                    {
+                        "name" : "unknown",
+                        "image":"assests/images/eps10-white-user-icon-or-logo-in-simple-flat-trendy-modern-style-isolated-on-black-background-free-vector.jpg"
+                    }
+                ],
+                "image_source":"assests/images/lamhey.jpeg",
+                "quality":{"low":"assests/songs/Lamhey.mp3","medium":"","high":""},
+                "release_date":"2023"
+    },
+    {
+        "id":19,
+        "playlist_type":false,
+        "playlist":null,
+        "song_name":"Malang Sagna",
+        "album_name":"Malang Sagna",
+        "singers":[
+            {
+                "name" : "Sachet Tandon",
+                "image":"assests/Artists/sachet.jpeg"
+            },
+            {
+                "name" : "Parampara Tandon",
+                "image":"assests/Artists/param.jpeg"
+            }
+        ],
+        "image_source":"assests/images/malang.jpeg",
+        "quality":{"low":"assests/songs/Malang.mp3","medium":"","high":""},
+        "release_date":"2022"
+    },
+    {
+        "id":20,
+                "playlist_type":false,
+                "playlist":null,
+                "song_name":"Khwab",
+                "album_name":"Khwab",
+                "singers":[
+
+                    {
+                        "name" : "Iqlipse Nova",
+                        "image":"assests/Artists/iqlipse.jpeg"
+                    },
+                    {
+                        "name" : "unknown",
+                        "image":"assests/images/eps10-white-user-icon-or-logo-in-simple-flat-trendy-modern-style-isolated-on-black-background-free-vector.jpg"
+                    }
+                ],
+                "image_source":"assests/images/khwab.jpeg",
+                "quality":{"low":"assests/songs/Khwab.mp3","medium":"","high":""},
+                "release_date":"2023"
+    },
+    {
+        "id":21,
+                "playlist_type":false,
+                "playlist":null,
+                "song_name":"Lehanga",
+                "album_name":"Lehanga",
+                "singers":[
+                    {
+                        "name" : "Jass Manak",
+                        "image":"assests/Artists/jass.jpeg"
+                    },
+                    {
+                        "name" : "unknown",
+                        "image":"assests/images/eps10-white-user-icon-or-logo-in-simple-flat-trendy-modern-style-isolated-on-black-background-free-vector.jpg"
+                    }
+                ],
+                "image_source":"assests/images/lehanga.jpeg",
+                "quality":{"low":"assests/songs/Lehanga.mp3","medium":"","high":""},
+                "release_date":"2019"
+    },
+    {
+        
+        "id":22,
+        "playlist_type":false,
+        "playlist":null,
+        "song_name":"Kali Kali zulfon ke  ",
+        "album_name":"Kali Kali zulfon ke",
+        "singers":[
+            {
+                "name" : "Madhur Sharma",
+                "image":"assests/Artists/madhur.jpeg"
+            },
+            {
+                "name" : "unknown",
+                "image":"assests/images/eps10-white-user-icon-or-logo-in-simple-flat-trendy-modern-style-isolated-on-black-background-free-vector.jpg"
+            }
+        ],
+        "image_source":"assests/images/kali.jpeg",
+        "quality":{"low":"assests/songs/kali.mp3","medium":"","high":""},
+        "release_date":"2017"
+    },
+    {
+        "id":23,
+                "playlist_type":false,
+                "playlist":null,
+                "song_name":"Faded",
+                "album_name":"Faded",
+                "singers":[
+                    {
+                        "name" : "Alan Walker",
+                        "image":"assests/Artists/alan.jpeg"
+                    },
+                    {
+                        "name" : "unknown",
+                        "image":"assests/images/eps10-white-user-icon-or-logo-in-simple-flat-trendy-modern-style-isolated-on-black-background-free-vector.jpg"
+                    }
+                ],
+                "image_source":"assests/images/faded.jpeg",
+                "quality":{"low":"assests/songs/Faded.mp3","medium":"","high":""},
+                "release_date":"2015"
+    },
+    {
+        "id":24,
+                "playlist_type":false,
+                "playlist":null,
+                "song_name":"Snap",
+                "album_name":"Snap",
+                "singers":[
+                    {
+                        "name" : "Rosa Linn",
+                        "image":"assests/Artists/rosa.jpeg"
+                    },
+                    {
+                        "name" : "unknown",
+                        "image":"assests/images/eps10-white-user-icon-or-logo-in-simple-flat-trendy-modern-style-isolated-on-black-background-free-vector.jpg"
+                    }
+                ],
+                "image_source":"assests/images/snap.jpeg",
+                "quality":{"low":"assests/songs/Snap.mp3","medium":"","high":""},
+                "release_date":"2023"   
+    },
+    {
+        "id":25,
+        "playlist_type":false,
+        "playlist":null,
+        "song_name":"Thousand Year",
+        "album_name":" Thousand Year ",
+        "singers":[
+            {
+                "name" : "Christian Perry",
+                "image":"assests/Artists/perry.jpeg"
+            },
+            {
+                "name" : "unknown",
+                "image":"assests/images/eps10-white-user-icon-or-logo-in-simple-flat-trendy-modern-style-isolated-on-black-background-free-vector.jpg"
+            }
+        ],
+        "image_source":"assests/images/thousand.jpeg",
+        "quality":{"low":"assests/songs/Thousand.mp3","medium":"","high":""},
+        "release_date":"2011"
+    },
+    {
+        "id":26,
+        "playlist_type":false,
+        "playlist":null,
+        "song_name":"Intention",
+        "album_name":"Intention",
+        "singers":[
+            {
+                "name" : "Justin Babier",
+                "image":"assests/Artists/justin.jpeg"
+            },
+            {
+                "name" : "Quavo",
+                "image":"assests/Artists/quavo.jpg"
+            }
+        ],
+        "image_source":"assests/images/intention.jpeg",
+        "quality":{"low":"assests/music/Intentions.mp3","medium":"","high":""},
+        "release_date":"2020"
+    },
+    {
+        "id":27,
+        "playlist_type":false,
+        "playlist":null,
+        "song_name":"Beliver",
+        "album_name":"Beliver",
+        "singers":[
+            {
+                "name" : "Imagine Drango",
+                "image":"assests/Artists/drango.jpeg"
+            },
+            {
+                "name" : "unknown",
+                "image":"assests/images/eps10-white-user-icon-or-logo-in-simple-flat-trendy-modern-style-isolated-on-black-background-free-vector.jpg"
+            }
+        ],
+        "image_source":"assests/images/beliver.jpeg",
+        "quality":{"low":"assests/songs/Believer.mp3","medium":"","high":""},
+        "release_date":"2018"
+    },
+    {
+        "id":28,
+        "playlist_type":false,
+        "playlist":null,
+        "song_name":"Calm Down",
+        "album_name":"Calm Down",
+        "singers":[
+            {
+                "name" : "Selena Gomez",
+                "image":"assests/Artists/selena.jpeg"
+            },
+            {
+                "name" : "Rema",
+                "image":"assests/Artists/rema.jpeg"
+            }
+        ],
+        "image_source":"assests/images/calmdown.jpeg",
+        "quality":{"low":"assests/songs/CalmDown.mp3","medium":"","high":""},
+        "release_date":"2023"
+    },
+    {
+        "id":5,
+        "playlist_type":false,
+        "playlist":null,
+        "song_name":"let me love you",
+        "album_name":"let me love you",
+        "singers":[
+            {
+                "name" : "Justin Babier",
+                "image":"assests/Artists/justin.jpeg"
+            },
+            {
+                "name" : "unknown",
+                "image":"assests/images/eps10-white-user-icon-or-logo-in-simple-flat-trendy-modern-style-isolated-on-black-background-free-vector.jpg"
+            }
+        ],
+        "image_source":"assests/images/letmeloveyou.jpeg",
+        "quality":{"low":"assests/songs/letMeLoveYou.mp3","medium":"","high":""},
+        "release_date":"2017"
+    },
+    {
+        "id":7,
+                "playlist_type":false,
+                "playlist":null,
+                "song_name":"shape of you",
+                "album_name":"shape of you",
+                "singers":[
+                    {
+                        "name" : "Ed Sheeran",
+                        "image":"assests/Artists/sheeran.jpeg"
+                    },
+                    {
+                        "name" : "unknown",
+                        "image":"assests/images/eps10-white-user-icon-or-logo-in-simple-flat-trendy-modern-style-isolated-on-black-background-free-vector.jpg"
+                    }
+                ],
+                "image_source":"assests/images/shape of you.jpeg",
+                "quality":{"low":"assests/songs/shapeofyou.mp3","medium":"","high":""},
+                "release_date":"date"
+    },
+    {
+        "id":29,
+                "playlist_type":false,
+                "playlist":null,
+                "song_name":"Zinda Banda",
+                "album_name":"Jawan  ",
+                "singers":[
+                    {
+                        "name" : "Anirudh Ravichandra",
+                        "image":"assests/Artists/anirudh.jpeg"
+                    },
+                    {
+                        "name" : "Shruti Rane",
+                        "image":"assests/Artists/shruti.jpeg"
+                    }
+                ],
+                "image_source":"assests/images/zinda.jpeg",
+                "quality":{"low":"assests/songs/zinda.mp3","medium":"","high":""},
+                "release_date":"2023"
+    },
+    {
+        "id":30,
+        "playlist_type":false,
+        "playlist":null,
+        "song_name":"Ramaiya Vasthiya",
+        "album_name":"Jawan  ",
+        "singers":[
+            {
+                "name" : "Anirudh Ravichandra",
+                "image":"assests/Artists/anirudh.jpeg"
+            },
+            {
+                "name" : "Dev Negi",
+                "image":"assests/Artists/DevNegi.jpeg"
+            }
+        ],
+        "image_source":"assests/images/ramaiya.jpeg",
+        "quality":{"low":"assests/songs/Ramaiya.mp3","medium":"","high":""},
+        "release_date":"2023"
+    },
+    {
+        
+        "id":31,
+        "playlist_type":false,
+        "playlist":null,
+        "song_name":"Malang Sagna",
+        "album_name":"Malang Sagna",
+        "singers":[
+            {
+                "name" : "Sachet Tandon",
+                "image":"assests/Artists/sachet.jpeg"
+            },
+            {
+                "name" : "Parampara Tandon",
+                "image":"assests/Artists/param.jpeg"
+            }
+        ],
+        "image_source":"assests/images/malang.jpeg",
+        "quality":{"low":"assests/songs/Malang.mp3","medium":"","high":""},
+        "release_date":"2022"
+    },
+    {"id":36,
+             "playlist_type":false,
+             "playlist":null,
+             "song_name":"Amplifier",
+             "album_name":"Amplifier",
+             "singers":[
+                 {
+                     "name" : "Imran Khan",
+                     "image":"assests/Artists/imran.jpeg"
+                 },
+                 {
+                     "name" : "unknown",
+                     "image":"assests/images/eps10-white-user-icon-or-logo-in-simple-flat-trendy-modern-style-isolated-on-black-background-free-vector.jpg"
+                 }
+             ],
+             "image_source":"assests/images/amplifier.jpeg",
+             "quality":{"low":"assests/songs/amplifier.mp3","medium":"","high":""},
+             "release_date":"2015"      
+             },
+             {
+                "id":35,
+             "playlist_type":false,
+             "playlist":null,
+             "song_name":"Machaenge",
+             "album_name":"Machaenge",
+             "singers":[
+                 {
+                     "name" : "Emiway Bantai",
+                     "image":"assests/Artists/imran.jpeg"
+                 },
+                 {
+                     "name" : "unknown",
+                     "image":"assests/images/eps10-white-user-icon-or-logo-in-simple-flat-trendy-modern-style-isolated-on-black-background-free-vector.jpg"
+                 }
+             ],
+             "image_source":"assests/images/emiway.jpeg",
+             "quality":{"low":"assests/songs/amplifier.mp3","medium":"","high":""},
+             "release_date":"2015"   
+             },
+             {
+                "id":34,
+             "playlist_type":false,
+             "playlist":null,
+             "song_name":"3:59 Am",
+             "album_name":"punya paap",
+             "singers":[
+                 {
+                     "name" : "Divine",
+                     "image":"assests/Artists/imran.jpeg"
+                 },
+                 {
+                     "name" : "unknown",
+                     "image":"assests/images/eps10-white-user-icon-or-logo-in-simple-flat-trendy-modern-style-isolated-on-black-background-free-vector.jpg"
+                 }
+             ],
+             "image_source":"assests/images/punya.jpeg",
+             "quality":{"low":"assests/songs/amplifier.mp3","medium":"","high":""},
+             "release_date":"2015"   
+             }
+
+],
+"Hindi":[
+    {
+        
+        "id":31,
+        "playlist_type":false,
+        "playlist":null,
+        "song_name":"Malang Sagna",
+        "album_name":"Malang Sagna",
+        "singers":[
+            {
+                "name" : "Sachet Tandon",
+                "image":"assests/Artists/sachet.jpeg"
+            },
+            {
+                "name" : "Parampara Tandon",
+                "image":"assests/Artists/param.jpeg"
+            }
+        ],
+        "image_source":"assests/images/malang.jpeg",
+        "quality":{"low":"assests/songs/Malang.mp3","medium":"","high":""},
+        "release_date":"2022"
+    },
+    {
+        "id":0,
+                "playlist_type":false,
+                "playlist":null,
+                "song_name":"Paro",
+                "album_name":"pyaar ka panchnaman 2",
+                
+                "singers":[
+                    {
+                        "name" : "Shipra Goyal",
+                        "image":"assests/Artists/Shipra.jpeg"
+                    },
+                    {
+                        "name" : "Dev Negi",
+                        "image":"assests/Artists/DevNegi.jpeg"
+                    }
+                ],
+                "image_source":"assests/images/paro.jpeg",
+                "quality":{"low":"assests/songs/paro.mp3","medium":"","high":""},
+                "release_date":"2018" 
+    },
+    {
+        "id":1,
+                "playlist_type":false,
+                "playlist":null,
+                "song_name":"jiyo re bahubal",
+                "album_name":"bahubali 2",
+                "singers":[
+                    {
+                        "name" : "Daler Mehandi",
+                        "image":"assests/Artists/Daler.jpeg"
+                    },
+                    {
+                        "name" : "Ramya Behra",
+                        "image":"assests/Artists/ramya.jpeg"
+                    }
+                ],
+                "image_source":"assests/images/bahubali.jpeg",
+                "quality":{"low":"assests/songs/JiyoReBaahubali.mp3","medium":"","high":""},
+                "release_date":"2017" 
+    },
+    {
+        "id":2,
+                "playlist_type":false,
+                "playlist":null,
+                "song_name":"hamsafar",
+                "album_name":"badrinath ki dhulania",
+                "singers":[
+                    {
+                        "name" : "Akhil Sachhdeve",
+                        "image":"assests/Artists/akhil.jpeg"
+                    },
+                    {
+                        "name" : "Mansheel Gujral",
+                        "image":"assests/Artists/mansheel.jpeg"
+                    }
+                ],
+                "image_source":"assests/images/humsafar.jpeg",
+                "quality":{"low":"assests/songs/Humsafar_Full_Video_Varun_Alia_Bhatt_Akhil_Sachdeva_Badrinath_Ki.mp3","medium":"","high":""},
+                "release_date":"2018"
+    },
+    {
+        "id":3,
+        "playlist_type":false,
+        "playlist":null,
+        "song_name":"Ik vaari Aa",
+        "album_name":"Raabta",
+       
+        "singers":[
+            {
+                "name" : "Arjit Singh",
+                "image":"assests/Artists/arjit.jpeg"
+            },
+            {
+                "name" : "Jubin Nautiyal",
+                "image":"assests/Artists/Jubin Nautiyal.jpeg"
+            }
+        ],
+        "image_source":"assests/images/ikk vari a.jpeg",
+        "quality":{"low":"assests/songs/ekVaari.mp3","medium":"","high":""},
+        "release_date":"2017"
+    },
+    {
+        "id":4,
+                "playlist_type":false,
+                "playlist":null,
+                "song_name":"ladki kar gayi chull",
+                "album_name":"kapoor and sons",
+                "singers":[
+                    {
+                        "name" : "Badshah",
+                        "image":"assests/Artists/badshah.jpeg"
+                    },
+                    {
+                        "name" : "Neha Kakkar",
+                        "image":"assests/Artists/neha.jpeg"
+                    }
+                ],
+                "image_source":"assests/images/kargyichul.jpeg",
+                "quality":{"low":"assests/songs/karGayiChull.mp3","medium":"","high":""},
+                "release_date":"2016"
+    },
+    {
+        "id":6,
+        "playlist_type":false,
+        "playlist":null,
+        "song_name":"raabta",
+        "album_name":"raabta",
+        "singers":[
+            {
+                "name" : "Arjit Singh",
+                "image":"assests/Artists/arjit.jpeg"
+            },
+            {
+                "name" : "Nikhita Gandhi",
+                "image":"assests/Artists/nikhita.jpeg"
+            }
+        ],
+        "image_source":"assests/images/raabta.jpeg",
+        "quality":{"low":"assests/songs/Raabta.mp3","medium":"","high":""},
+        "release_date":"2017"
+    },
+    {
+        
+        "id":1,
+        "playlist_type":false,
+        "playlist":null,
+        "song_name":"O Bedardeya",
+        "album_name":"Tu jhooti mai Makkar",
+        "singers":[
+            {
+                "name" : "Arjit Singh",
+                "image":"assests/Artists/arjit.jpeg"
+            },
+            {
+                "name" : "Pritam",
+                "image":"assests/Artists/pritam.jpeg"
+            }
+        ],
+        "image_source":"assests/images/bedardeya.jpeg",
+        "quality":{"low":"assests/songs/bedardeyea.mp3","medium":"","high":""},
+        "release_date":"2023"
+    },
+    {
+        "id":2,
+        "playlist_type":false,
+        "playlist":null,
+        "song_name":"Tere vaste",
+        "album_name":"Zara Hatke Zara Bachke ",
+        "singers":[
+            {
+                "name" : "Sachin-jigar",
+                "image":"assests/Artists/sachin.jpeg"
+            },
+            {
+                "name" : "Varun jain",
+                "image":"assests/Artists/varun.jpeg"
+            }
+        ],
+        "image_source":"assests/images/terevaste.jpeg",
+        "quality":{"low":"assests/songs/terevaste.mp3","medium":"","high":""},
+        "release_date":"2023"
+    },
+    {
+        
+        "id":3,
+        "playlist_type":false,
+        "playlist":null,
+        "song_name":"Tere Hawale",
+        "album_name":"Laal Singh Chadwa",
+        "singers":[
+            {
+                "name" : "Arjit Singh",
+                "image":"assests/Artists/arjit.jpeg"
+            },
+            {
+                "name" : "Pritam",
+                "image":"assests/Artists/pritam.jpeg"
+            }
+        ],
+        "image_source":"assests/images/laal.jpeg",
+        "quality":{"low":"assests/songs/terehawale.mp3","medium":"","high":""},
+        "release_date":"2022"
+    },
+    {
+        "id":4,
+        "playlist_type":false,
+        "playlist":null,
+        "song_name":"Kya Chaiye",
+        "album_name":"Zara Hatke Zara Bachke",
+        "singers":[
+            {
+                "name" : "Arjit Singh",
+                "image":"assests/Artists/arjit.jpeg"
+            },
+            {
+                "name" : "Shruti Rane",
+                "image":"assests/Artists/shruti.jpeg"
+            }
+        ],
+        "image_source":"assests/images/kyachahiye.jpeg",
+        "quality":{"low":"assests/songs/kyachaiye.mp3","medium":"","high":""},
+        "release_date":"2023"
+    },
+    {
+        "id":5,
+                "playlist_type":false,
+                "playlist":null,
+                "song_name":"Udd Ja Kale Kawan",
+                "album_name":"Gaddar 2",
+                "singers":[
+                    {
+                        "name" : "Uddit Naryan",
+                        "image":"assests/Artists/uddit.jpeg"
+                    },
+                    {
+                        "name" : "alka yagnik",
+                        "image":"assests/Artists/alka.jpeg"
+                    }
+                ],
+                "image_source":"assests/images/uddja.jpeg",
+                "quality":{"low":"assests/songs/uddjaakale.mp3","medium":"","high":""},
+                "release_date":"2023"
+    },
+    {
+        "id":6,
+                "playlist_type":false,
+                "playlist":null,
+                "song_name":"What Jhumka",
+                "album_name":"Rocky Aur Rani Kii Prem Kahaani",
+                "singers":[
+                    {
+                        "name" : "Arjit Singh",
+                        "image":"assests/Artists/arjit.jpeg"
+                    },
+                    {
+                        "name" : "Jonita Gandhi",
+                        "image":"assests/Artists/gandhi.jpeg"
+                    }
+                ],
+                "image_source":"assests/images/jhumka.jpeg",
+                "quality":{"low":"assests/songs/whatjumka.mp3","medium":"","high":""},
+                "release_date":"2023"
+    }
+],
+"Trending" : [
+    {"id":0,
+    "playlist_type":false,
+    "playlist":null,
+    "song_name":"Paro",
+    "album_name":"pyaar ka panchnaman 2",
+    
+    "singers":[
+        {
+            "name" : "Shipra Goyal",
+            "image":"assests/Artists/Shipra.jpeg"
+        },
+        {
+            "name" : "Dev Negi",
+            "image":"assests/Artists/DevNegi.jpeg"
+        }
+    ],
+    "image_source":"assests/images/paro.jpeg",
+    "quality":{"low":"assests/songs/paro.mp3","medium":"","high":""},
+    "release_date":"2018"      
+    },
+{
+   "id":1,
+    "playlist_type":false,
+    "playlist":null,
+    "song_name":"jiyo re bahubal",
+    "album_name":"bahubali 2",
+    "singers":[
+        {
+            "name" : "Daler Mehandi",
+            "image":"assests/Artists/Daler.jpeg"
+        },
+        {
+            "name" : "Ramya Behra",
+            "image":"assests/Artists/ramya.jpeg"
+        }
+    ],
+    "image_source":"assests/images/bahubali.jpeg",
+    "quality":{"low":"assests/songs/JiyoReBaahubali.mp3","medium":"","high":""},
+    "release_date":"2017"    
+   },
+{
+    "id":2,
+    "playlist_type":false,
+    "playlist":null,
+    "song_name":"hamsafar",
+    "album_name":"badrinath ki dhulania",
+    "singers":[
+        {
+            "name" : "Akhil Sachhdeve",
+            "image":"assests/Artists/akhil.jpeg"
+        },
+        {
+            "name" : "Mansheel Gujral",
+            "image":"assests/Artists/mansheel.jpeg"
+        }
+    ],
+    "image_source":"assests/images/humsafar.jpeg",
+    "quality":{"low":"assests/songs/Humsafar_Full_Video_Varun_Alia_Bhatt_Akhil_Sachdeva_Badrinath_Ki.mp3","medium":"","high":""},
+    "release_date":"2018"
+},
+{
+   "id":3,
+    "playlist_type":false,
+    "playlist":null,
+    "song_name":"Ik vaari Aa",
+    "album_name":"Raabta",
+   
+    "singers":[
+        {
+            "name" : "Arjit Singh",
+            "image":"assests/Artists/arjit.jpeg"
+        },
+        {
+            "name" : "Jubin Nautiyal",
+            "image":"assests/Artists/Jubin Nautiyal.jpeg"
+        }
+    ],
+    "image_source":"assests/images/ikk vari a.jpeg",
+    "quality":{"low":"assests/songs/ekVaari.mp3","medium":"","high":""},
+    "release_date":"2017"
+},
+{
+   "id":4,
+    "playlist_type":false,
+    "playlist":null,
+    "song_name":"ladki kar gayi chull",
+    "album_name":"kapoor and sons",
+    "singers":[
+        {
+            "name" : "Badshah",
+            "image":"assests/Artists/badshah.jpeg"
+        },
+        {
+            "name" : "Neha Kakkar",
+            "image":"assests/Artists/neha.jpeg"
+        }
+    ],
+    "image_source":"assests/images/kargyichul.jpeg",
+    "quality":{"low":"assests/songs/karGayiChull.mp3","medium":"","high":""},
+    "release_date":"2016"
+},
+{
+   "id":5,
+    "playlist_type":false,
+    "playlist":null,
+    "song_name":"let me love you",
+    "album_name":"Encore",
+    "singers":[
+
+        {
+            "name" : "Justin Babier",
+            "image":"assests/Artists/justin.jpeg"
+        },
+        {
+            "name" : "DJ Snake",
+            "image":"assests/Artists/dj.jpeg"
+        }
+    ],
+    "image_source":"assests/images/letmeloveyou.jpeg",
+    "quality":{"low":"assests/songs/letMeLoveYou.mp3","medium":"","high":""},
+    "release_date":"2016"},
+{
+   "id":6,
+    "playlist_type":false,
+    "playlist":null,
+    "song_name":"raabta",
+    "album_name":"raabta",
+    "singers":[
+        {
+            "name" : "Arjit Singh",
+            "image":"assests/Artists/arjit.jpeg"
+        },
+        {
+            "name" : "Nikhita Gandhi",
+            "image":"assests/Artists/nikhita.jpeg"
+        }
+    ],
+    "image_source":"assests/images/raabta.jpeg",
+    "quality":{"low":"assests/songs/Raabta.mp3","medium":"","high":""},
+    "release_date":"2017"
+},
+{
+    "id":7,
+    "playlist_type":false,
+    "playlist":null,
+    "song_name":"shape of you",
+    
+    "album_name":"shape of you",
+    "singers":[
+        {
+            "name" : "Ed Sheeran",
+            "image":"assests/Artists/sheeran.jpeg"
+        },
+        {
+            "name" : "Jason Koeing",
+            "image":"assests/Artists/jason.jpeg"
+        }
+    ],
+    "image_source":"assests/images/shape of you.jpeg",
+    "quality":{"low":"assests/songs/𝐒𝐡𝐚𝐩𝐞𝐨𝐟𝐲𝐨𝐮.mp3","medium":"","high":""},
+    "release_date":"2017"
+}
+],
+"English":[
+    {
+        "id":7,
+                "playlist_type":false,
+                "playlist":null,
+                "song_name":"shape of you",
+                
+                "album_name":"shape of you",
+                "singers":[
+                    {
+                        "name" : "Ed Sheeran",
+                        "image":"assests/Artists/sheeran.jpeg"
+                    },
+                    {
+                        "name" : "Jason Koeing",
+                        "image":"assests/Artists/jason.jpeg"
+                    }
+                ],
+                "image_source":"assests/images/shape of you.jpeg",
+                "quality":{"low":"assests/songs/𝐒𝐡𝐚𝐩𝐞𝐨𝐟𝐲𝐨𝐮.mp3","medium":"","high":""},
+                "release_date":"2017"
+    },
+    {
+        "id":5,
+                "playlist_type":false,
+                "playlist":null,
+                "song_name":"let me love you",
+                "album_name":"Encore",
+                "singers":[
+
+                    {
+                        "name" : "Justin Babier",
+                        "image":"assests/Artists/justin.jpeg"
+                    },
+                    {
+                        "name" : "DJ Snake",
+                        "image":"assests/Artists/dj.jpeg"
+                    }
+                ],
+                "image_source":"assests/images/letmeloveyou.jpeg",
+                "quality":{"low":"assests/songs/letMeLoveYou.mp3","medium":"","high":""},
+                "release_date":"2016"
+    },
+    {
+        "id":23,
+                "playlist_type":false,
+                "playlist":null,
+                "song_name":"Faded",
+                "album_name":"Faded",
+                "singers":[
+                    {
+                        "name" : "Alan Walker",
+                        "image":"assests/Artists/alan.jpeg"
+                    },
+                    {
+                        "name" : "unknown",
+                        "image":"assests/images/eps10-white-user-icon-or-logo-in-simple-flat-trendy-modern-style-isolated-on-black-background-free-vector.jpg"
+                    }
+                ],
+                "image_source":"assests/images/faded.jpeg",
+                "quality":{"low":"assests/songs/Faded.mp3","medium":"","high":""},
+                "release_date":"2015" 
+    },
+    {
+        "id":24,
+                "playlist_type":false,
+                "playlist":null,
+                "song_name":"Snap",
+                "album_name":"Snap",
+                "singers":[
+                    {
+                        "name" : "Rosa Linn",
+                        "image":"assests/Artists/rosa.jpeg"
+                    },
+                    {
+                        "name" : "unknown",
+                        "image":"assests/images/eps10-white-user-icon-or-logo-in-simple-flat-trendy-modern-style-isolated-on-black-background-free-vector.jpg"
+                    }
+                ],
+                "image_source":"assests/images/snap.jpeg",
+                "quality":{"low":"assests/songs/Snap.mp3","medium":"","high":""},
+                "release_date":"2023" 
+    },
+    {
+        "id":25,
+                "playlist_type":false,
+                "playlist":null,
+                "song_name":"Thousand Year",
+                "album_name":" Thousand Year ",
+                "singers":[
+                    {
+                        "name" : "Christian Perry",
+                        "image":"assests/Artists/perry.jpeg"
+                    },
+                    {
+                        "name" : "unknown",
+                        "image":"assests/images/eps10-white-user-icon-or-logo-in-simple-flat-trendy-modern-style-isolated-on-black-background-free-vector.jpg"
+                    }
+                ],
+                "image_source":"assests/images/thousand.jpeg",
+                "quality":{"low":"assests/songs/Thousand.mp3","medium":"","high":""},
+                "release_date":"2011"
+    },
+    {
+        
+        "id":26,
+        "playlist_type":false,
+        "playlist":null,
+        "song_name":"Intention",
+        "album_name":"Intention",
+        "singers":[
+            {
+                "name" : "Justin Babier",
+                "image":"assests/Artists/justin.jpeg"
+            },
+            {
+                "name" : "Quavo",
+                "image":"assests/Artists/quavo.jpg"
+            }
+        ],
+        "image_source":"assests/images/intention.jpeg",
+        "quality":{"low":"assests/music/Intentions.mp3","medium":"","high":""},
+        "release_date":"2020"
+    },
+    {
+        "id":27,
+                "playlist_type":false,
+                "playlist":null,
+                "song_name":"Beliver",
+                "album_name":"Beliver",
+                "singers":[
+                    {
+                        "name" : "Imagine Drango",
+                        "image":"assests/Artists/drango.jpeg"
+                    },
+                    {
+                        "name" : "unknown",
+                        "image":"assests/images/eps10-white-user-icon-or-logo-in-simple-flat-trendy-modern-style-isolated-on-black-background-free-vector.jpg"
+                    }
+                ],
+                "image_source":"assests/images/beliver.jpeg",
+                "quality":{"low":"assests/songs/Believer.mp3","medium":"","high":""},
+                "release_date":"2018"
+    },
+    {
+        "id":28,
+                "playlist_type":false,
+                "playlist":null,
+                "song_name":"Calm Down",
+                "album_name":"Calm Down",
+                "singers":[
+                    {
+                        "name" : "Selena Gomez",
+                        "image":"assests/Artists/selena.jpeg"
+                    },
+                    {
+                        "name" : "Rema",
+                        "image":"assests/Artists/rema.jpeg"
+                    }
+                ],
+                "image_source":"assests/images/calmdown.jpeg",
+                "quality":{"low":"assests/songs/CalmDown.mp3","medium":"","high":""},
+                "release_date":"2023"
+    }
+],
+"Independent":[
+    {"id":15,
+                "playlist_type":false,
+                "playlist":null,
+                "song_name":"Baarishein",
+                "album_name":"Baarishein",
+                "singers":[
+                    {
+                        "name" : "Anuv Jain",
+                        "image":"assests/Artists/anuv.jpeg"
+                    },
+                    {
+                        "name" : "Mansheel Gujral",
+                        "image":"assests/Artists/eps10-white-user-icon-or-logo-in-simple-flat-trendy-modern-style-isolated-on-black-background-free-vector.jpg"
+                    }
+                ],
+                "image_source":"assests/images/baarish.jpeg",
+                "quality":{"low":"assests/songs/BAARISHEIN.mp3","medium":"","high":""},
+                "release_date":"2018"      
+                },
+            {
+               "id":16,
+                "playlist_type":false,
+                "playlist":null,
+                "song_name":"Choo lo",
+                "album_name":"Aalas ka pedh",
+                "singers":[
+                    {
+                        "name" : "Local Train",
+                        "image":"assests/Artists/the local.jpeg"
+                    },
+                    {
+                        "name" : "unknown",
+                        "image":"assests/Artists/eps10-white-user-icon-or-logo-in-simple-flat-trendy-modern-style-isolated-on-black-background-free-vector.jpg"
+                    }
+                ],
+                "image_source":"assests/images/choloo.jpeg",
+                "quality":{"low":"assests/songs/TheLocal.mp3","medium":"","high":""},
+                "release_date":"2015"    
+               },
+            {
+                "id":17,
+                "playlist_type":false,
+                "playlist":null,
+                "song_name":"With_You",
+                "album_name":"With_You",
+                "singers":[
+                    {
+                        "name" : "Ap Dhillon",
+                        "image":"assests/Artists/dhillon.jpeg"
+                    },
+                    {
+                        "name" : "unknown",
+                        "image":"assests/Artists/eps10-white-user-icon-or-logo-in-simple-flat-trendy-modern-style-isolated-on-black-background-free-vector.jpg"
+                    }
+                ],
+                "image_source":"assests/images/withyou.jpeg",
+                "quality":{"low":"assests/songs/WithYou.mp3","medium":"","high":""},
+                "release_date":"2023"
+            },
+            {
+               "id":18,
+                "playlist_type":false,
+                "playlist":null,
+                "song_name":"Lamhey",
+                "album_name":"Lamhey",
+                "singers":[
+                    {
+                        "name" : "Anubha Bajaj",
+                        "image":"assests/Artists/anubha.jpeg"
+                    },
+                    {
+                        "name" : "unknown",
+                        "image":"assests/Artists/eps10-white-user-icon-or-logo-in-simple-flat-trendy-modern-style-isolated-on-black-background-free-vector.jpg"
+                    }
+                ],
+                "image_source":"assests/images/lamhey.jpeg",
+                "quality":{"low":"assests/songs/Lamhey.mp3","medium":"","high":""},
+                "release_date":"2023"},
+            {
+               "id":19,
+                "playlist_type":false,
+                "playlist":null,
+                "song_name":"Malang Sagna",
+                "album_name":"Malang Sagna",
+                "singers":[
+                    {
+                        "name" : "Sachet Tandon",
+                        "image":"assests/Artists/sachet.jpeg"
+                    },
+                    {
+                        "name" : "Parampara Tandon",
+                        "image":"assests/Artists/param.jpeg"
+                    }
+                ],
+                "image_source":"assests/images/malang.jpeg",
+                "quality":{"low":"assests/songs/Malang.mp3","medium":"","high":""},
+                "release_date":"2022"},
+            {
+               "id":20,
+                "playlist_type":false,
+                "playlist":null,
+                "song_name":"Khwab",
+                "album_name":"Khwab",
+                "singers":[
+
+                    {
+                        "name" : "Iqlipse Nova",
+                        "image":"assests/Artists/iqlipse.jpeg"
+                    },
+                    {
+                        "name" : "unknown",
+                        "image":"assests/images/eps10-white-user-icon-or-logo-in-simple-flat-trendy-modern-style-isolated-on-black-background-free-vector.jpg"
+                    }
+                ],
+                "image_source":"assests/images/khwab.jpeg",
+                "quality":{"low":"assests/songs/Khwab.mp3","medium":"","high":""},
+                "release_date":"2023"},
+            {
+               "id":21,
+                "playlist_type":false,
+                "playlist":null,
+                "song_name":"Lehanga",
+                "album_name":"Lehanga",
+                "singers":[
+                    {
+                        "name" : "Jass Manak ",
+                        "image":"assests/Artists/jass.jpeg"
+                    },
+                    {
+                        "name" : "unknown",
+                        "image":"assests/images/eps10-white-user-icon-or-logo-in-simple-flat-trendy-modern-style-isolated-on-black-background-free-vector.jpg"
+                    }
+                ],
+                "image_source":"assests/images/lehanga.jpeg",
+                "quality":{"low":"assests/songs/Lehanga.mp3","medium":"","high":""},
+                "release_date":"2019"
+            },
+            {
+                "id":22,
+                "playlist_type":false,
+                "playlist":null,
+                "song_name":"Kali Kali zulfon ke  ",
+                "album_name":"Kali Kali zulfon ke",
+                "singers":[
+                    {
+                        "name" : "Madhur Sharma",
+                        "image":"assests/Artists/madhur.jpeg"
+                    },
+                    {
+                        "name" : "unknown",
+                        "image":"assests/images/eps10-white-user-icon-or-logo-in-simple-flat-trendy-modern-style-isolated-on-black-background-free-vector.jpg"
+                    }
+                ],
+                "image_source":"assests/images/kali.jpeg",
+                "quality":{"low":"assests/songs/kali.mp3","medium":"","high":""},
+                "release_date":"2017"
+            }
+],
+"NewRelease":[
+    {
+        
+        "id":29,
+        "playlist_type":false,
+        "playlist":null,
+        "song_name":"Kesariya  ",
+        "album_name":"Kesariya",
+        "singers":[
+            {
+                "name" : "Arjit Singh",
+                "image":"assests/Artists/arjit.jpeg"
+            },
+            {
+                "name" : "Pritam",
+                "image":"assests/Artists/pritam.jpeg"
+            }
+        ],
+        "image_source":"assests/images/kesariya.jpeg",
+        "quality":{"low":"assests/songs/Kesariya.mp3","medium":"","high":""},
+        "release_date":"2022"
+    },
+    {
+          
+        "id":30,
+        "playlist_type":false,
+        "playlist":null,
+        "song_name":"Heeriye  ",
+        "album_name":"Heeriye",
+        "singers":[
+            {
+                "name" : "Arjit Singh",
+                "image":"assests/Artists/arjit.jpeg"
+            },
+            {
+                "name" : "Jasleen Royal",
+                "image":"assests/Artists/jasleen.jpeg"
+            }
+        ],
+        "image_source":"assests/images/heeriye.jpeg",
+        "quality":{"low":"assests/songs/Heeriye.mp3","medium":"","high":""},
+        "release_date":"2023"
+    },
+    {
+        "id":13,
+                "playlist_type":false,
+                "playlist":null,
+                "song_name":"Udd Ja Kale Kawan",
+                "album_name":"Gaddar 2",
+                "singers":[
+                    {
+                        "name" : "Uddit Naryan",
+                        "image":"assests/Artists/uddit.jpeg"
+                    },
+                    {
+                        "name" : "alka yagnik",
+                        "image":"assests/Artists/alka.jpeg"
+                    }
+                ],
+                "image_source":"assests/images/uddja.jpeg",
+                "quality":{"low":"assests/songs/uddjaakale.mp3","medium":"","high":""},
+                "release_date":"2023"
+    },{
+        "id":14,
+                "playlist_type":false,
+                "playlist":null,
+                "song_name":"What Jhumka",
+                "album_name":"Rocky Aur Rani Kii Prem Kahaani",
+                "singers":[
+                    {
+                        "name" : "Arjit Singh",
+                        "image":"assests/Artists/arjit.jpeg"
+                    },
+                    {
+                        "name" : "Jonita Gandhi",
+                        "image":"assests/Artists/gandhi.jpeg"
+                    }
+                ],
+                "image_source":"assests/images/jhumka.jpeg",
+                "quality":{"low":"assests/songs/whatjumka.mp3","medium":"","high":""},
+                "release_date":"2023"
+    },
+    {
+        "id":12,
+        "playlist_type":false,
+        "playlist":null,
+        "song_name":"Kya Chaiye",
+        "album_name":"Zara Hatke Zara Bachke",
+        "singers":[
+            {
+                "name" : "Arjit Singh",
+                "image":"assests/Artists/arjit.jpeg"
+            },
+            {
+                "name" : "Shruti Rane",
+                "image":"assests/Artists/shruti.jpeg"
+            }
+        ],
+        "image_source":"assests/images/kyachahiye.jpeg",
+        "quality":{"low":"assests/songs/kyachaiye.mp3","medium":"","high":""},
+        "release_date":"2023"
+    },{
+        "id":10,
+        "playlist_type":false,
+        "playlist":null,
+        "song_name":"Tere vaste",
+        "album_name":"Zara Hatke Zara Bachke ",
+        "singers":[
+            {
+                "name" : "Sachin-jigar",
+                "image":"assests/Artists/sachin.jpeg"
+            },
+            {
+                "name" : "Varun jain",
+                "image":"assests/Artists/varun.jpeg"
+            }
+        ],
+        "image_source":"assests/images/terevaste.jpeg",
+        "quality":{"low":"assests/songs/terevaste.mp3","medium":"","high":""},
+        "release_date":"2023"
+    },
+    {
+        "id":31,
+                "playlist_type":false,
+                "playlist":null,
+                "song_name":"Zinda Banda",
+                "album_name":"Jawan  ",
+                "singers":[
+                    {
+                        "name" : "Anirudh Ravichandra",
+                        "image":"assests/Artists/anirudh.jpeg"
+                    },
+                    {
+                        "name" : "Shruti Rane",
+                        "image":"assests/Artists/shruti.jpeg"
+                    }
+                ],
+                "image_source":"assests/images/zinda.jpeg",
+                "quality":{"low":"assests/songs/zinda.mp3","medium":"","high":""},
+                "release_date":"2023"
+    },
+    {
+        "id":32,
+                "playlist_type":false,
+                "playlist":null,
+                "song_name":"Ve Fukrey",
+                "album_name":"Fukrey  3 ",
+                "singers":[
+                    {
+                        "name" : "Tanishk Bagchi",
+                        "image":"assests/Artists/bagchi.jpeg"
+                    },
+                    {
+                        "name" : "Dev Negi",
+                        "image":"assests/Artists/DevNegi.jpeg"
+                    }
+                ],
+                "image_source":"assests/images/fukrey.jpeg",
+                "quality":{"low":"assests/songs/Fukrey.mp3","medium":"","high":""},
+                "release_date":"2023"
+    },
+    {
+        "id":33,
+        "playlist_type":false,
+        "playlist":null,
+        "song_name":"Ramaiya Vasthiya",
+        "album_name":"Jawan  ",
+        "singers":[
+            {
+                "name" : "Anirudh Ravichandra",
+                "image":"assests/Artists/anirudh.jpeg"
+            },
+            {
+                "name" : "Dev Negi",
+                "image":"assests/Artists/DevNegi.jpeg"
+            }
+        ],
+        "image_source":"assests/images/ramaiya.jpeg",
+        "quality":{"low":"assests/songs/Ramaiya.mp3","medium":"","high":""},
+        "release_date":"2023"
+    }
+],
+"Love":[
+    {
+        "id":2,
+                "playlist_type":false,
+                "playlist":null,
+                "song_name":"hamsafar",
+                "genere":"hindi",
+                "album_name":"badrinath ki dhulania",
+                "singers":[
+                    {
+                        "name" : "Akhil Sachhdeve",
+                        "image":"assests/Artists/akhil.jpeg"
+                    },
+                    {
+                        "name" : "Mansheel Gujral",
+                        "image":"assests/Artists/mansheel.jpeg"
+                    }
+                ],
+                "image_source":"assests/images/humsafar.jpeg",
+                "quality":{"low":"assests/songs/Humsafar_Full_Video_Varun_Alia_Bhatt_Akhil_Sachdeva_Badrinath_Ki.mp3","medium":"","high":""},
+                "release_date":"2018"
+    },
+    {
+        "id":3,
+                "playlist_type":false,
+                "playlist":null,
+                "song_name":"Ik vaari Aa",
+                "album_name":"Raabta",
+                "genere":"hindi",
+               
+                "singers":[
+                    {
+                        "name" : "Arjit Singh",
+                        "image":"assests/Artists/arjit.jpeg"
+                    },
+                    {
+                        "name" : "Jubin Nautiyal",
+                        "image":"assests/Artists/Jubin Nautiyal.jpeg"
+                    }
+                ],
+                "image_source":"assests/images/ikk vari a.jpeg",
+                "quality":{"low":"assests/songs/ekVaari.mp3","medium":"","high":""},
+                "release_date":"2017"
+    },
+    {
+        "id":6,
+                "playlist_type":false,
+                "playlist":null,
+                "song_name":"raabta",
+                "album_name":"raabta",
+                "genere":"hindi",
+                "singers":[
+                    {
+                        "name" : "Arjit Singh",
+                        "image":"assests/Artists/arjit.jpeg"
+                    },
+                    {
+                        "name" : "Nikhita Gandhi",
+                        "image":"assests/Artists/nikhita.jpeg"
+                    }
+                ],
+                "image_source":"assests/images/raabta.jpeg",
+                "quality":{"low":"assests/songs/Raabta.mp3","medium":"","high":""},
+                "release_date":"2017"
+    },
+    {
+        "id":5,
+                "playlist_type":false,
+                "playlist":null,
+                "song_name":"let me love you",
+                "album_name":"Encore",
+                "singers":[
+
+                    {
+                        "name" : "Justin Babier",
+                        "image":"assests/Artists/justin.jpeg"
+                    },
+                    {
+                        "name" : "DJ Snake",
+                        "image":"assests/Artists/dj.jpeg"
+                    }
+                ],
+                "image_source":"assests/images/letmeloveyou.jpeg",
+                "quality":{"low":"assests/songs/letMeLoveYou.mp3","medium":"","high":""},
+                "release_date":"2016"
+    },
+    {
+        "id":10,
+        "playlist_type":false,
+        "playlist":null,
+        "song_name":"Tere vaste",
+        "album_name":"Zara Hatke Zara Bachke ",
+        "singers":[
+            {
+                "name" : "Sachin-jigar",
+                "image":"assests/Artists/sachin.jpeg"
+            },
+            {
+                "name" : "Varun jain",
+                "image":"assests/Artists/varun.jpeg"
+            }
+        ],
+        "image_source":"assests/images/terevaste.jpeg",
+        "quality":{"low":"assests/songs/terevaste.mp3","medium":"","high":""},
+        "release_date":"2023"
+    },
+    {
+        "id":11,
+        "playlist_type":false,
+        "playlist":null,
+        "song_name":"Tere Hawale",
+        "album_name":"Laal Singh Chadwa",
+        "singers":[
+            {
+                "name" : "Arjit Singh",
+                "image":"assests/Artists/arjit.jpeg"
+            },
+            {
+                "name" : "Pritam",
+                "image":"assests/Artists/pritam.jpeg"
+            }
+        ],
+        "image_source":"assests/images/laal.jpeg",
+        "quality":{"low":"assests/songs/terehawale.mp3","medium":"","high":""},
+        "release_date":"2022"
+    },
+    {
+        "id":12,
+                "playlist_type":false,
+                "playlist":null,
+                "song_name":"Kya Chaiye",
+                "album_name":"Zara Hatke Zara Bachke",
+                "singers":[
+                    {
+                        "name" : "Arjit Singh",
+                        "image":"assests/Artists/arjit.jpeg"
+                    },
+                    {
+                        "name" : "Shruti Rane",
+                        "image":"assests/Artists/shruti.jpeg"
+                    }
+                ],
+                "image_source":"assests/images/kyachahiye.jpeg",
+                "quality":{"low":"assests/songs/kyachaiye.mp3","medium":"","high":""},
+                "release_date":"2023"
+    },
+    {
+        "id":17,
+        "playlist_type":false,
+        "playlist":null,
+        "song_name":"With_You",
+        "album_name":"With_You",
+        "singers":[
+            {
+                "name" : "Ap Dhillon",
+                "image":"assests/Artists/dhillon.jpeg"
+            },
+            {
+                "name" : "unknown",
+                "image":"assests/images/jasleen.jpeg"
+            }
+        ],
+        "image_source":"assests/images/withyou.jpeg",
+        "quality":{"low":"assests/songs/WithYou.mp3","medium":"","high":""},
+        "release_date":"2023"
+    },
+    {
+        "id":25,
+                "playlist_type":false,
+                "playlist":null,
+                "song_name":"Thousand Year",
+                "album_name":" Thousand Year ",
+                "singers":[
+                    {
+                        "name" : "Christian Perry",
+                        "image":"assests/Artists/perry.jpeg"
+                    },
+                    {
+                        "name" : "unknown",
+                        "image":"assests/images/eps10-white-user-icon-or-logo-in-simple-flat-trendy-modern-style-isolated-on-black-background-free-vector.jpg"
+                    }
+                ],
+                "image_source":"assests/images/thousand.jpeg",
+                "quality":{"low":"assests/songs/Thousand.mp3","medium":"","high":""},
+                "release_date":"2011"
+    }
+
+],
+"Workout":[
+    {
+        "id":1,
+         "playlist_type":false,
+         "playlist":null,
+         "song_name":"jiyo re bahubal",
+         "album_name":"bahubali 2",
+         "singers":[
+             {
+                 "name" : "Daler Mehandi",
+                 "image":"assests/Artists/Daler.jpeg"
+             },
+             {
+                 "name" : "Ramya Behra",
+                 "image":"assests/Artists/ramya.jpeg"
+             }
+         ],
+         "image_source":"assests/images/bahubali.jpeg",
+         "quality":{"low":"assests/songs/JiyoReBaahubali.mp3","medium":"","high":""},
+         "release_date":"2017"    
+        },
+        {
+            "id":7,
+            "playlist_type":false,
+            "playlist":null,
+            "song_name":"shape of you",
+            
+            "album_name":"shape of you",
+            "singers":[
+                {
+                    "name" : "Ed Sheeran",
+                    "image":"assests/Artists/sheeran.jpeg"
+                },
+                {
+                    "name" : "Jason Koeing",
+                    "image":"assests/Artists/jason.jpeg"
+                }
+            ],
+            "image_source":"assests/images/shape of you.jpeg",
+            "quality":{"low":"assests/songs/𝐒𝐡𝐚𝐩𝐞𝐨𝐟𝐲𝐨𝐮.mp3","medium":"","high":""},
+            "release_date":"2017"
+        },
+        {
+            "id":27,
+             "playlist_type":false,
+             "playlist":null,
+             "song_name":"Beliver",
+             "album_name":"Beliver",
+             "singers":[
+                 {
+                     "name" : "Imagine Drango",
+                     "image":"assests/Artists/drango.jpeg"
+                 },
+                 {
+                     "name" : "unknown",
+                     "image":"assests/images/eps10-white-user-icon-or-logo-in-simple-flat-trendy-modern-style-isolated-on-black-background-free-vector.jpg"
+                 }
+             ],
+             "image_source":"assests/images/beliver.jpeg",
+             "quality":{"low":"assests/songs/Believer.mp3","medium":"","high":""},
+             "release_date":"2018"},
+
+             {"id":23,
+             "playlist_type":false,
+             "playlist":null,
+             "song_name":"Faded",
+             "album_name":"Faded",
+             "singers":[
+                 {
+                     "name" : "Alan Walker",
+                     "image":"assests/Artists/alan.jpeg"
+                 },
+                 {
+                     "name" : "unknown",
+                     "image":"assests/images/eps10-white-user-icon-or-logo-in-simple-flat-trendy-modern-style-isolated-on-black-background-free-vector.jpg"
+                 }
+             ],
+             "image_source":"assests/images/faded.jpeg",
+             "quality":{"low":"assests/songs/Faded.mp3","medium":"","high":""},
+             "release_date":"2015"      
+             },
+
+             {"id":36,
+             "playlist_type":false,
+             "playlist":null,
+             "song_name":"Amplifier",
+             "album_name":"Amplifier",
+             "singers":[
+                 {
+                     "name" : "Imran Khan",
+                     "image":"assests/Artists/IMRAN.jpeg"
+                 },
+                 {
+                     "name" : "unknown",
+                     "image":"assests/images/eps10-white-user-icon-or-logo-in-simple-flat-trendy-modern-style-isolated-on-black-background-free-vector.jpg"
+                 }
+             ],
+             "image_source":"assests/images/amplifier.jpeg",
+             "quality":{"low":"assests/songs/Amplifier.mp3","medium":"","high":""},
+             "release_date":"2015"      
+             },
+             {
+                "id":35,
+             "playlist_type":false,
+             "playlist":null,
+             "song_name":"Machaenge",
+             "album_name":"Machaenge",
+             "singers":[
+                 {
+                     "name" : "Emiway Bantai",
+                     "image":"assests/Artists/emiway.jpeg"
+                 },
+                 {
+                     "name" : "unknown",
+                     "image":"assests/images/eps10-white-user-icon-or-logo-in-simple-flat-trendy-modern-style-isolated-on-black-background-free-vector.jpg"
+                 }
+             ],
+             "image_source":"assests/images/emiway.jpeg",
+             "quality":{"low":"assests/songs/MACHAYENGE.mp3","medium":"","high":""},
+             "release_date":"2015"   
+             },
+             {
+                "id":34,
+             "playlist_type":false,
+             "playlist":null,
+             "song_name":"3:59 Am",
+             "album_name":"punya paap",
+             "singers":[
+                 {
+                     "name" : "Divine",
+                     "image":"assests/Artists/divine.jpeg"
+                 },
+                 {
+                     "name" : "unknown",
+                     "image":"assests/images/eps10-white-user-icon-or-logo-in-simple-flat-trendy-modern-style-isolated-on-black-background-free-vector.jpg"
+                 }
+             ],
+             "image_source":"assests/images/punya.jpeg",
+             "quality":{"low":"assests/songs/DIVINE.mp3","medium":"","high":""},
+             "release_date":"2015"   
+             },
+             {
+                "id":31,
+             "playlist_type":false,
+             "playlist":null,
+             "song_name":"Zinda Banda",
+             "album_name":"Jawan  ",
+             "singers":[
+                 {
+                     "name" : "Anirudh Ravichandra",
+                     "image":"assests/Artists/anirudh.jpeg"
+                 },
+                 {
+                     "name" : "unknown",
+                     "image":"assests/images/eps10-white-user-icon-or-logo-in-simple-flat-trendy-modern-style-isolated-on-black-background-free-vector.jpg"
+                 }
+             ],
+             "image_source":"assests/images/zinda.jpeg",
+             "quality":{"low":"assests/songs/zinda.mp3","medium":"","high":""},
+             "release_date":"2015"   
+             }
+],
+"Punjabi":[
+    {
+        "id":21,
+                "playlist_type":false,
+                "playlist":null,
+                "song_name":"Lehanga",
+                "album_name":"Lehanga",
+                "singers":[
+                    {
+                        "name" : "Jass Manak ",
+                        "image":"assests/Artists/jass.jpeg"
+                    },
+                    {
+                        "name" : "unknown",
+                        "image":"assests/images/eps10-white-user-icon-or-logo-in-simple-flat-trendy-modern-style-isolated-on-black-background-free-vector.jpg"
+                    }
+                ],
+                "image_source":"assests/images/lehanga.jpeg",
+                "quality":{"low":"assests/songs/Lehanga.mp3","medium":"","high":""},
+                "release_date":"2019"
+    },
+    {
+        "id":17,
+                "playlist_type":false,
+                "playlist":null,
+                "song_name":"With_You",
+                "album_name":"With_You",
+                "singers":[
+                    {
+                        "name" : "Ap Dhillon",
+                        "image":"assests/Artists/dhillon.jpeg"
+                    },
+                    {
+                        "name" : "unknown",
+                        "image":"assests/Artists/eps10-white-user-icon-or-logo-in-simple-flat-trendy-modern-style-isolated-on-black-background-free-vector.jpg"
+                    }
+                ],
+                "image_source":"assests/images/withyou.jpeg",
+                "quality":{"low":"assests/songs/WithYou.mp3","medium":"","high":""},
+                "release_date":"2023"
+    },
+    {
+        "id":8 ,
+                "playlist_type":false,
+                "playlist":null,
+                "song_name":"Beautiful",
+                "album_name":"Beautiful",
+                "singers":[
+                    {
+                        "name" : "Miland Gaba",
+                        "image":"assests/Artists/miland.jpeg"
+                    },
+                    {
+                        "name" : "oshin brar",
+                        "image":"assests/Artists/oshin.jpeg"
+                    }
+                ],
+                "image_source":"assests/images/beautiful.jpeg",
+                "quality":{"low":"assests/songs/Beautiful.mp3","medium":"","high":""},
+                "release_date":"2017"  
+    }
+],
+"Party":[
+    {
+        "id":8 ,
+                "playlist_type":false,
+                "playlist":null,
+                "song_name":"Beautiful",
+                "album_name":"Beautiful",
+                "singers":[
+                    {
+                        "name" : "Miland Gaba",
+                        "image":"assests/Artists/miland.jpeg"
+                    },
+                    {
+                        "name" : "oshin brar",
+                        "image":"assests/Artists/oshin.jpeg"
+                    }
+                ],
+                "image_source":"assests/images/beautiful.jpeg",
+                "quality":{"low":"assests/songs/Beautiful.mp3","medium":"","high":""},
+                "release_date":"2017"  
+    },
+    {
+        "id":0,
+                "playlist_type":false,
+                "playlist":null,
+                "song_name":"Paro",
+                "album_name":"pyaar ka panchnaman 2",
+                
+                "singers":[
+                    {
+                        "name" : "Shipra Goyal",
+                        "image":"assests/Artists/Shipra.jpeg"
+                    },
+                    {
+                        "name" : "Dev Negi",
+                        "image":"assests/Artists/DevNegi.jpeg"
+                    }
+                ],
+                "image_source":"assests/images/paro.jpeg",
+                "quality":{"low":"assests/songs/paro.mp3","medium":"","high":""},
+                "release_date":"2018" 
+    },
+    {
+        "id":3,
+        "playlist_type":false,
+        "playlist":null,
+        "song_name":"Ik vaari Aa",
+        "album_name":"Raabta",
+       
+        "singers":[
+            {
+                "name" : "Arjit Singh",
+                "image":"assests/Artists/arjit.jpeg"
+            },
+            {
+                "name" : "Jubin Nautiyal",
+                "image":"assests/Artists/Jubin Nautiyal.jpeg"
+            }
+        ],
+        "image_source":"assests/images/ikk vari a.jpeg",
+        "quality":{"low":"assests/songs/ekVaari.mp3","medium":"","high":""},
+        "release_date":"2017"
+    },
+    {
+        "id":4,
+                "playlist_type":false,
+                "playlist":null,
+                "song_name":"ladki kar gayi chull",
+                "album_name":"kapoor and sons",
+                "singers":[
+                    {
+                        "name" : "Badshah",
+                        "image":"assests/Artists/badshah.jpeg"
+                    },
+                    {
+                        "name" : "Neha Kakkar",
+                        "image":"assests/Artists/neha.jpeg"
+                    }
+                ],
+                "image_source":"assests/images/kargyichul.jpeg",
+                "quality":{"low":"assests/songs/karGayiChull.mp3","medium":"","high":""},
+                "release_date":"2016"
+    },
+    {
+        "id":5,
+        "playlist_type":false,
+        "playlist":null,
+        "song_name":"let me love you",
+        "album_name":"Encore",
+        "singers":[
+
+            {
+                "name" : "Justin Babier",
+                "image":"assests/Artists/justin.jpeg"
+            },
+            {
+                "name" : "DJ Snake",
+                "image":"assests/Artists/dj.jpeg"
+            }
+        ],
+        "image_source":"assests/images/letmeloveyou.jpeg",
+        "quality":{"low":"assests/songs/letMeLoveYou.mp3","medium":"","high":""},
+        "release_date":"2016"
+    }
+]
+}

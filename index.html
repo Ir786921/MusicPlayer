@@ -1,0 +1,974 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music Player</title>
+    <script src="index.js" type="module" defer></script>
+    <link rel="stylesheet" href="bootstrap.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/b4bc7babb7.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        prefix: "tw-",
+        corePlugins: {
+          preflight: false,
+        },
+      };
+    </script>
+  </head>
+  <body>
+    <div class="container-fluid tw-m-0 tw-p-0 tw-bg-black tw-w-screen">
+      <div class="row">
+        <!-- Side Bar Star Here -->
+        <div class="col-2 tw-p-2 tw-bg-black">
+          <div class="tw-bg-black tw-flex tw-flex-col tw-gap-5 tw-h-[82vh]">
+            <div class="tw-p-2 hover:tw-shadow-lg">
+              <h5 class="text-start tw-text-white">
+                Music Mania &nbsp; <i class="fa-solid fa-music"></i>
+              </h5>
+            </div>
+
+            <div
+              id="HomeTab"
+              class="tw-p-2 tw-cursor-pointer hover:tw-shadow-lg tw-outline tw-outline-black hover:tw-outline-slate-700 tw-rounded-md"
+            >
+              <a
+                href="#Home"
+                class="tw-no-underline tw-text-slate-400 hover:tw-text-white hover:tw-bg-slate-200"
+                ><h5 class="m-lg-2 text-start">
+                  <i class="fa-solid fa-house"></i>&nbsp;&nbsp;Home
+                </h5>
+              </a>
+            </div>
+
+            <div
+              id="SearchTab"
+              class="tw-p-2 tw-text-slate-400 hover:tw-text-white tw-cursor-pointer tw-outline tw-outline-black hover:tw-outline-slate-700 tw-rounded-md"
+            >
+              <h5 class="m-lg-2 text-start">
+                <i class="fa-solid fa-magnifying-glass"></i> &nbsp;&nbsp;Search
+              </h5>
+            </div>
+
+            <div
+              class="tw-p-2 tw-cursor-pointer tw-text-slate-300"
+              id="playlistsSec"
+            >
+              <h5 class="m-lg-2">
+                Your Playlist
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i
+                  class="fa-solid fa-plus"
+                  id="plus"
+                  data-bs-toggle="modal"
+                  data-bs-target="#Modal"
+                  title="Create your own playlist"
+                ></i>
+              </h5>
+              <br />
+              <div
+                class="tw-outline tw-outline-black hover:tw-outline-slate-700 tw-rounded-md tw-p-2 mb-3"
+                id="LikedTab"
+              >
+                <a
+                  href="#Likedsong"
+                  class="tw-no-underline tw-text-slate-400 hover:tw-text-white"
+                >
+                  <span
+                    ><img
+                      src="./assests/images/heart.jpeg"
+                      alt="heart"
+                      class="tw-w-8 tw-rounded-md" /></span
+                  >&nbsp;&nbsp;
+                  <h5 class="d-inline-block">Liked Song</h5></a
+                >
+              </div>
+              <div class="d-none" id="newPlayListTab"></div>
+            </div>
+          </div>
+        </div>
+        <!-- side bar end here -->
+
+        <!-- Main CoNTENT sTART HERE -->
+        <div class="col-7 tw-p-4" id="MainContent">
+
+          <!-- SEARCH SECTION START HERE -->
+          <div class="d-none tw-h-[82vh] tw-overflow-auto" id="SearchSection">
+            <input
+              type="text"
+              class="input-group mt-3 tw-p-2 tw-rounded-3xl tw-outline tw-outline-slate-600"
+              placeholder="what do you want to listen to?"
+              id="searchText"
+            />
+              <!-- BROWSE ALL -->
+            <div class="mt-4" id="recent">
+              <h4 class="text-white">Browse All</h4>
+              <br />
+              <!-- DIFFERENT SONGS ON THE BASIS OF GENERE -->
+              <div class="d-flex flex-wrap gap-4 p-2">
+                <div id="hindi">
+                  <div
+                    class="tw-w-36 tw-bg-pink-200 tw-rounded-md tw-h-36 d-flex justify-content-center tw-opacity-[0.8]"
+                    style="
+                      background-image: url(./assests/Banners/butter.jpeg);
+                      background-repeat: no-repeat;
+                      background-size: contain;
+                    "
+                  ></div>
+                  <h6 class="text-black text-center tw-text-gray-400 mt-1">
+                    Hindi
+                  </h6>
+                </div>
+                <div id="trending">
+                  <div
+                    class="tw-w-36 tw-bg-pink-200 tw-rounded-md tw-h-36 d-flex justify-content-center tw-opacity-[0.8]"
+                    style="
+                      background-image: url(./assests/Banners/trending.jpeg);
+                      background-repeat: no-repeat;
+                      background-size: contain;
+                    "
+                  ></div>
+                  <h6 class="text-black text-center tw-text-gray-400 mt-1">
+                    Trending
+                  </h6>
+                </div>
+                <div id="english">
+                  <div
+                    class="tw-w-36 tw-bg-pink-200 tw-rounded-md tw-h-36 d-flex justify-content-center tw-opacity-[0.8]"
+                    style="
+                      background-image: url(./assests/Banners/global.png);
+                      background-repeat: no-repeat;
+                      background-size: contain;
+                    "
+                  ></div>
+                  <h6 class="text-black text-center tw-text-gray-400 mt-1">
+                    English
+                  </h6>
+                </div>
+                <div id="independent">
+                  <div
+                    class="tw-w-36 tw-bg-pink-200 tw-rounded-md tw-h-36 d-flex justify-content-center tw-opacity-[0.8]"
+                    style="
+                      background-image: url(./assests/Artists/anuv.jpeg);
+                      background-repeat: no-repeat;
+                      background-size: cover;
+                    "
+                  ></div>
+                  <h6 class="text-black text-center tw-text-gray-400 mt-1">
+                    Independent
+                  </h6>
+                </div>
+                <div id="release">
+                  <div
+                    class="tw-w-36 tw-bg-pink-200 tw-rounded-md tw-h-36 d-flex justify-content-center tw-opacity-[0.8]"
+                    style="
+                      background-image: url(./assests/Banners/friday.png);
+                      background-repeat: no-repeat;
+                      background-size: cover;
+                    "
+                  ></div>
+                  <h6 class="text-black text-center tw-text-gray-400 mt-1">
+                    New Release
+                  </h6>
+                </div>
+                <div id="love">
+                  <div
+                    class="tw-w-36 tw-bg-pink-200 tw-rounded-md tw-h-36 d-flex justify-content-center tw-opacity-[0.8]"
+                    style="
+                      background-image: url(./assests/Banners/love.jpeg);
+                      background-repeat: no-repeat;
+                      background-size: contain;
+                    "
+                  ></div>
+                  <h6 class="text-black text-center tw-text-gray-400 mt-1">
+                    Love
+                  </h6>
+                </div>
+                <div id="workout">
+                  <div
+                    class="tw-w-36 tw-bg-pink-200 tw-rounded-md tw-h-36 d-flex justify-content-center tw-opacity-[0.8]"
+                    style="
+                      background-image: url(./assests/Banners/beast.jpeg);
+                      background-repeat: no-repeat;
+                      background-size: contain;
+                    "
+                  ></div>
+                  <h6 class="text-black text-center tw-text-gray-400 mt-1">
+                    Workout
+                  </h6>
+                </div>
+                <div id="punjabi">
+                  <div
+                    class="tw-w-36 tw-bg-pink-200 tw-rounded-md tw-h-36 d-flex justify-content-center tw-opacity-[0.8]"
+                    style="
+                      background-image: url(./assests/Banners/Punjabi.jpeg);
+                      background-repeat: no-repeat;
+                      background-size: contain;
+                    "
+                  ></div>
+                  <h6 class="text-black text-center tw-text-gray-400 mt-1">
+                    Punjabi
+                  </h6>
+                </div>
+                <div id="party">
+                  <div
+                    class="tw-w-36 tw-bg-pink-200 tw-rounded-md tw-h-36 d-flex justify-content-center tw-opacity-[0.8]"
+                    style="
+                      background-image: url(./assests/Banners/party.jpeg);
+                      background-repeat: no-repeat;
+                      background-size: contain;
+                    "
+                  ></div>
+                  <h6 class="text-black text-center tw-text-gray-400 mt-1">
+                    Party
+                  </h6>
+                </div>
+              </div>
+
+              <h4 class="text-white mt-2 mb-2">Find Songs by their singers</h4>
+              <br />
+              
+
+                <!-- DIFFERENT SINGERS -->
+
+              <div id="singersContainer" class="mt-2 d-flex flex-wrap gap-4">
+                <div id="arjit">
+                  <div
+                    class="tw-w-36 tw-bg-pink-200 tw-rounded-md tw-h-36 d-flex justify-content-center tw-opacity-[0.8]"
+                    style="
+                      background-image: url(./assests/Artists/arjit.jpeg);
+                      background-repeat: no-repeat;
+                      background-size: cover;
+                    "
+                  ></div>
+                  <h6 class="text-black text-center tw-text-gray-400 mt-1">
+                    Arjit Singh
+                  </h6>
+                </div>
+                <div id="alan">
+                  <div
+                    class="tw-w-36 tw-bg-pink-200 tw-rounded-md tw-h-36 d-flex justify-content-center tw-opacity-[0.8]"
+                    style="
+                      background-image: url(./assests/Artists/alan.jpeg);
+                      background-repeat: no-repeat;
+                      background-size: contain;
+                    "
+                  ></div>
+                  <h6 class="text-black text-center tw-text-gray-400 mt-1">
+                    Alan Walker
+                  </h6>
+                </div>
+                <div id="dev">
+                  <div
+                    class="tw-w-36 tw-bg-pink-200 tw-rounded-md tw-h-36 d-flex justify-content-center tw-opacity-[0.8]"
+                    style="
+                      background-image: url(./assests/Artists/DevNegi.jpeg);
+                      background-repeat: no-repeat;
+                      background-size: cover;
+                    "
+                  ></div>
+                  <h6 class="text-black text-center tw-text-gray-400 mt-1">
+                    Dev Negi
+                  </h6>
+                </div>
+                <div id="anirudh">
+                  <div
+                    class="tw-w-36 tw-bg-pink-200 tw-rounded-md tw-h-36 d-flex justify-content-center tw-opacity-[0.8]"
+                    style="
+                      background-image: url(./assests/Artists/anirudh.jpeg);
+                      background-repeat: no-repeat;
+                      background-size: cover;
+                    "
+                  ></div>
+                  <h6 class="text-black text-center tw-text-gray-400 mt-1">
+                    Anirudh Singh
+                  </h6>
+                </div>
+                <div id="akhil">
+                  <div
+                    class="tw-w-36 tw-bg-pink-200 tw-rounded-md tw-h-36 d-flex justify-content-center tw-opacity-[0.8]"
+                    style="
+                      background-image: url(./assests/Artists/akhil.jpeg);
+                      background-repeat: no-repeat;
+                      background-size: cover;
+                    "
+                  ></div>
+                  <h6 class="text-black text-center tw-text-gray-400 mt-1">
+                    Akhil Sachadeva
+                  </h6>
+                </div>
+                <div id="justin">
+                  <div
+                    class="tw-w-36 tw-bg-pink-200 tw-rounded-md tw-h-36 d-flex justify-content-center tw-opacity-[0.8]"
+                    style="
+                      background-image: url(./assests/Artists/justin.jpeg);
+                      background-repeat: no-repeat;
+                      background-size: cover;
+                    "
+                  ></div>
+                  <h6 class="text-black text-center tw-text-gray-400 mt-1">
+                    Justin Biber
+                  </h6>
+                </div>
+                <div id="selena">
+                  <div
+                    class="tw-w-36 tw-bg-pink-200 tw-rounded-md tw-h-36 d-flex justify-content-center tw-opacity-[0.8]"
+                    style="
+                      background-image: url(./assests/Artists/selena.jpeg);
+                      background-repeat: no-repeat;
+                      background-size: cover;
+                    "
+                  ></div>
+                  <h6 class="text-black text-center tw-text-gray-400 mt-1">
+                    Selena Gomez
+                  </h6>
+                </div>
+                <div id="jass">
+                  <div
+                    class="tw-w-36 tw-bg-pink-200 tw-rounded-md tw-h-36 d-flex justify-content-center tw-opacity-[0.8]"
+                    style="
+                      background-image: url(./assests/Artists/jass.jpeg);
+                      background-repeat: no-repeat;
+                      background-size: cover;
+                    "
+                  ></div>
+                  <h6 class="text-black text-center tw-text-gray-400 mt-1">
+                    Jass Manak
+                  </h6>
+                </div>
+                <div id="sachet">
+                  <div
+                    class="tw-w-36 tw-bg-pink-200 tw-rounded-md tw-h-36 d-flex justify-content-center tw-opacity-[0.8]"
+                    style="
+                      background-image: url(./assests/Artists/sachet.jpeg);
+                      background-repeat: no-repeat;
+                      background-size: cover;
+                    "
+                  ></div>
+                  <h6 class="text-black text-center tw-text-gray-400 mt-1">
+                    Sachet Tandon
+                  </h6>
+                </div>
+
+                <div id="anuv">
+                  <div
+                    class="tw-w-36 tw-bg-pink-200 tw-rounded-md tw-h-36 d-flex justify-content-center tw-opacity-[0.8]"
+                    style="
+                      background-image: url(./assests/Artists/anuv.jpeg);
+                      background-repeat: no-repeat;
+                      background-size: cover;
+                    "
+                  ></div>
+                  <h6 class="text-black text-center tw-text-gray-400 mt-1">
+                    Anuv jain
+                  </h6>
+                </div>
+              </div>
+            </div>
+            <div class="mt-5 cardContainer" id="SearchSong">
+              <img
+                src=" "
+                alt=""
+                id="searchImage"
+                class="tw-w-44 tw-rounded-md"
+              />
+              <h5 class="text-white text-center" id="serachResult"></h5>
+              <i class="fa-regular fa-circle-play d-none" id="play"></i>
+            </div>
+          </div>
+ 
+          <!-- SINGERS SECTIONS END HERE -->
+
+
+
+          <!-- DIFFERENT CONTAINER ON THE BASIS OF GENERE -->
+          <div
+            id="BrowseResult"
+            class="d-none text-white tw-h-[82vh] tw-overflow-y-auto"
+          >
+            <div
+              class="d-flex flex-wrap gap-4 tw-overflow-y-auto justify-content-center tw-p-2"
+              id="SongContainer"
+            >
+              <div
+                class="tw-bg-pink-400 tw-h-48 d-flex flex-lg-row-reverse tw-opacity-[0.8] tw-rounded-md mb-4 tw-w-full"
+              >
+                <h1 class="text-white m-auto">Hindi Songs</h1>
+                <img
+                  src="./assests/Banners/butter.jpeg"
+                  class="tw-rounded-md tw-float-left"
+                  alt="heart"
+                />
+              </div>
+            </div>
+            <div
+              class="d-flex flex-wrap gap-4 tw-overflow-y-auto tw-p-2 justify-content-center"
+              id="SongContainer2"
+            >
+              <div
+                class="tw-bg-sky-400 tw-h-48 d-flex flex-lg-row-reverse tw-opacity-[0.8] tw-rounded-md mb-4 tw-w-full"
+              >
+                <h1 class="text-white m-auto">Trending Songs</h1>
+                <img
+                  src="./assests/Banners/trending.jpeg"
+                  class="tw-rounded-md tw-float-left"
+                  alt="heart"
+                />
+              </div>
+            </div>
+            <div
+              class="d-flex flex-wrap gap-4 tw-overflow-y-auto justify-content-center tw-p-2"
+              id="SongContainer3"
+            >
+              <div
+                class="tw-bg-violet-600 tw-h-48 d-flex flex-lg-row-reverse tw-opacity-[0.8] tw-rounded-md mb-4 tw-w-full"
+              >
+                <h1 class="text-white m-auto">English Songs</h1>
+                <img
+                  src="./assests/Banners/global.png"
+                  class="tw-rounded-md tw-float-left"
+                  alt="heart"
+                />
+              </div>
+            </div>
+            <div
+              class="d-flex flex-wrap gap-4 tw-overflow-y-auto justify-content-center tw-p-2"
+              id="SongContainer4"
+            >
+              <div
+                class="tw-bg-brown-400 tw-h-48 d-flex flex-lg-row-reverse tw-opacity-[0.8] tw-rounded-md mb-4 tw-w-full"
+              >
+                <h1 class="text-white m-auto">Independent Artists</h1>
+                <img
+                  src="./assests/Artists/anuv.jpeg"
+                  class="tw-rounded-md tw-float-left"
+                  alt="heart"
+                />
+              </div>
+            </div>
+            <div
+              class="d-flex flex-wrap gap-4 tw-overflow-y-auto justify-content-center tw-p-2"
+              id="SongContainer5"
+            >
+              <div
+                class="tw-bg-green-300 tw-h-48 d-flex flex-lg-row-reverse tw-opacity-[0.8] tw-rounded-md mb-4 tw-w-full"
+              >
+                <h1 class="text-white m-auto">New Release Songs</h1>
+                <img
+                  src="./assests/Banners/friday.png"
+                  class="tw-rounded-md tw-float-left"
+                  alt="heart"
+                />
+              </div>
+            </div>
+            <div
+              class="d-flex flex-wrap gap-4 tw-overflow-y-auto justify-content-center tw-p-2"
+              id="SongContainer6"
+            >
+              <div
+                class="tw-bg-sky-200 tw-h-48 d-flex flex-lg-row-reverse tw-opacity-[0.8] tw-rounded-md mb-4 tw-w-full"
+              >
+                <h1 class="text-white m-auto">Love Songs</h1>
+                <img
+                  src="./assests/Banners/love.jpeg"
+                  class="tw-rounded-md tw-float-left"
+                  alt="heart"
+                />
+              </div>
+            </div>
+            <div
+              class="d-flex flex-wrap gap-4 tw-overflow-y-auto justify-content-center tw-p-2"
+              id="SongContainer7"
+            >
+              <div
+                class="tw-bg-purple-700 tw-h-48 d-flex flex-lg-row-reverse tw-opacity-[0.8] tw-rounded-md mb-4 tw-w-full"
+              >
+                <h1 class="text-white m-auto">Workout Songs</h1>
+                <img
+                  src="./assests/Banners/beast.jpeg"
+                  class="tw-rounded-md tw-float-left"
+                  alt="heart"
+                />
+              </div>
+            </div>
+            <div
+              class="d-flex flex-wrap gap-4 tw-overflow-y-auto justify-content-center tw-p-2"
+              id="SongContainer8"
+            >
+              <div
+                class="tw-bg-purple-700 tw-h-48 d-flex flex-lg-row-reverse tw-opacity-[0.8] tw-rounded-md mb-4 tw-w-full"
+              >
+                <h1 class="text-white m-auto">Punjabi Songs</h1>
+                <img
+                  src="./assests/Banners/Punjabi.jpeg"
+                  class="tw-rounded-md tw-float-left"
+                  alt="heart"
+                />
+              </div>
+            </div>
+            <div
+              class="d-flex flex-wrap gap-4 tw-overflow-y-auto justify-content-center tw-p-2"
+              id="SongContainer9"
+            >
+              <div
+                class="tw-bg-purple-700 tw-h-48 d-flex flex-lg-row-reverse tw-opacity-[0.8] tw-rounded-md mb-4 tw-w-full"
+              >
+                <h1 class="text-white m-auto">Party Songs</h1>
+                <img
+                  src="./assests/Banners/party.jpeg"
+                  class="tw-rounded-md tw-float-left"
+                  alt="heart"
+                />
+              </div>
+            </div>
+
+
+            <!-- SINGERS CONTAINERS START HERE -->
+            <div
+              class="d-flex flex-wrap gap-4 tw-overflow-y-auto justify-content-center tw-p-2"
+              id="singerArjit"
+            >
+              <div
+                class="tw-bg-orange-400 tw-h-48 d-flex flex-lg-row-reverse tw-opacity-[0.8] tw-rounded-md mb-4 tw-w-full"
+              >
+                <h1 class="text-white m-auto">Arjit Singh Songs</h1>
+                <img
+                  src="./assests/Artists/arjit.jpeg"
+                  class="tw-rounded-md tw-float-left"
+                  alt="heart"
+                />
+              </div>
+            </div>
+            <div
+              class="d-flex flex-wrap gap-4 tw-overflow-y-auto justify-content-center tw-p-2"
+              id="singerDev"
+            >
+              <div
+                class="tw-bg-yellow-600 tw-h-48 d-flex flex-lg-row-reverse tw-opacity-[0.8] tw-rounded-md mb-4 tw-w-full"
+              >
+                <h1 class="text-white m-auto">Dev Negi Songs</h1>
+                <img
+                  src="./assests/Artists/DevNegi.jpeg"
+                  class="tw-rounded-md tw-float-left"
+                  alt="heart"
+                />
+              </div>
+            </div>
+            <div
+              class="d-flex flex-wrap gap-4 tw-overflow-y-auto justify-content-center tw-p-2"
+              id="singerAlan"
+            >
+              <div
+                class="tw-bg-gray-600 tw-h-48 d-flex flex-lg-row-reverse tw-opacity-[0.8] tw-rounded-md mb-4 tw-w-full"
+              >
+                <h1 class="text-white m-auto">Alan Walker Songs</h1>
+                <img
+                  src="./assests/Artists/alan.jpeg"
+                  class="tw-rounded-md tw-float-left"
+                  alt="heart"
+                />
+              </div>
+            </div>
+            <div
+              class="d-flex flex-wrap gap-4 tw-overflow-y-auto justify-content-center tw-p-2"
+              id="singerAnirudh"
+            >
+              <div
+                class="tw-bg-gray-600 tw-h-48 d-flex flex-lg-row-reverse tw-opacity-[0.8] tw-rounded-md mb-4 tw-w-full"
+              >
+                <h1 class="text-white m-auto">Anirudh Ravindra Songs</h1>
+                <img
+                  src="./assests/Artists/anirudh.jpeg"
+                  class="tw-rounded-md tw-float-left"
+                  alt="heart"
+                />
+              </div>
+            </div>
+            <div
+              class="d-flex flex-wrap gap-4 tw-overflow-y-auto justify-content-center tw-p-2"
+              id="singerAkhil"
+            >
+              <div
+                class="tw-bg-green-300 tw-h-48 d-flex flex-lg-row-reverse tw-opacity-[0.8] tw-rounded-md mb-4 tw-w-full"
+              >
+                <h1 class="text-white m-auto">Akhil Sachadeva Songs</h1>
+                <img
+                  src="./assests/Artists/akhil.jpeg"
+                  class="tw-rounded-md tw-float-left"
+                  alt="heart"
+                />
+              </div>
+            </div>
+            <div
+              class="d-flex flex-wrap gap-4 tw-overflow-y-auto justify-content-center tw-p-2"
+              id="singerjustin"
+            >
+              <div
+                class="tw-bg-purple-600 tw-h-48 d-flex flex-lg-row-reverse tw-opacity-[0.8] tw-rounded-md mb-4 tw-w-full"
+              >
+                <h1 class="text-white m-auto">Justin Biber Songs</h1>
+                <img
+                  src="./assests/Artists/justin.jpeg"
+                  class="tw-rounded-md tw-float-left"
+                  alt="heart"
+                />
+              </div>
+            </div>
+            <div
+              class="d-flex flex-wrap gap-4 tw-overflow-y-auto justify-content-center tw-p-2"
+              id="singersalena"
+            >
+              <div
+                class="tw-bg-yellow-400 tw-h-48 d-flex flex-lg-row-reverse tw-opacity-[0.8] tw-rounded-md mb-4 tw-w-full"
+              >
+                <h1 class="text-white m-auto">Selena Gomez Songs</h1>
+                <img
+                  src="./assests/Artists/selena.jpeg"
+                  class="tw-rounded-md tw-float-left"
+                  alt="heart"
+                />
+              </div>
+            </div>
+            <div
+              class="d-flex flex-wrap gap-4 tw-overflow-y-auto justify-content-center tw-p-2"
+              id="singerjass"
+            >
+              <div
+                class="tw-bg-gray-600 tw-h-48 d-flex flex-lg-row-reverse tw-opacity-[0.8] tw-rounded-md mb-4 tw-w-full"
+              >
+                <h1 class="text-white m-auto">Jass Manak Songs</h1>
+                <img
+                  src="./assests/Artists/jass.jpeg"
+                  class="tw-rounded-md tw-float-left"
+                  alt="heart"
+                />
+              </div>
+            </div>
+            <div
+              class="d-flex flex-wrap gap-4 tw-overflow-y-auto justify-content-center tw-p-2"
+              id="singersachet"
+            >
+              <div
+                class="tw-bg-purple-600 tw-h-48 d-flex flex-lg-row-reverse tw-opacity-[0.8] tw-rounded-md mb-4 tw-w-full"
+              >
+                <h1 class="text-white m-auto">Sachet Tandon Songs</h1>
+                <img
+                  src="./assests/Artists/sachet.jpeg"
+                  class="tw-rounded-md tw-float-left"
+                  alt="heart"
+                />
+              </div>
+            </div>
+            <div
+              class="d-flex flex-wrap gap-4 tw-overflow-y-auto justify-content-center tw-p-2"
+              id="singeranuv"
+            >
+              <div
+                class="tw-bg-purple-600 tw-h-48 d-flex flex-lg-row-reverse tw-opacity-[0.8] tw-rounded-md mb-4 tw-w-full"
+              >
+                <h1 class="text-white m-auto">Anuv Jain Songs</h1>
+                <img
+                  src="./assests/Artists/anuv.jpeg"
+                  class="tw-rounded-md tw-float-left"
+                  alt="heart"
+                />
+              </div>
+            </div>
+          </div>
+          
+
+
+          <!-- LIKE SONG CONTAINER -->
+          <div
+            id="LikedSong"
+            class="d-none tw-h-[82vh] tw-overflow-y-auto tw-outline"
+          >
+            <div
+              class="tw-bg-gray-800 tw-h-48 d-flex flex-lg-row-reverse tw-opacity-[0.8] tw-rounded-md mb-4"
+            >
+              <h1 class="text-white m-auto">Liked Songs</h1>
+              <img
+                src="./assests/images/heart.jpeg"
+                class="tw-rounded-md tw-float-left"
+                alt="heart"
+              />
+            </div>
+            <div id="likeContainer"></div>
+          </div>
+    
+
+          <!-- YOUR PLAYLIST CONTAINER -->
+          <div
+            class="d-none tw-h-[82vh] tw-overflow-y-auto tw-outline"
+            id="newplaylist"
+          >
+            <div
+              class="tw-bg-gray-800 tw-h-48 d-flex flex-lg-row-reverse tw-opacity-[0.8] tw-rounded-md mb-4"
+            >
+              <h1 class="text-white m-auto">Your Playlist</h1>
+              <img
+                src="./assests/images/music.jpeg"
+                class="tw-rounded-md tw-float-left"
+                alt="heart"
+              />
+            </div>
+            <div id="newContainer"></div>
+          </div>
+
+
+
+          <!--  MODAL SECTION -->
+
+
+          <div class="modal fade" id="Modal">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-body">
+                  <label for="name">
+                    <br />
+                    <input
+                      type="text"
+                      name="name"
+                      id="name"
+                      class="form-control tw-w-[29rem]"
+                      placeholder="Enter your Playlist name"
+                    />
+                  </label>
+                  <br />
+                  <div class="mt-2 d-flex justify-content-center gap-3">
+                    <button
+                      type="button"
+                      class="btn btn-danger"
+                      data-bs-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                    <button
+                      class="btn btn-success"
+                      data-bs-dismiss="modal"
+                      id="create"
+                    >
+                      Create
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+             
+
+          <!-- LYRICS CONTAINER -->
+
+          <div
+            id="lyricsSection"
+            class="d-none d-flex justify-content-center tw-p-2 tw-overflow-y-auto tw-h-[82vh]"
+          >
+            <h6
+              id="text"
+              class="text-white tw-w-60 tw-tracking-wider tw-leading-10"
+            ></h6>
+          </div>
+
+
+          <!-- MAIN HOME CONTAINERE -->
+          <div
+            class="tw-h-4/5 tw-bg-black tw-shadow-xl tw-rounded-md tw-bg-slate-900 tw-h-[82vh] tw-overflow-y-auto"
+            id="Home"
+          >
+            <div class="tw-p-2">
+              <h3 class="tw-text-white tw-ml-2">New Release</h3>
+              <br />
+
+              <div
+                class="tw-rounded-lg tw-w-44 d-flex tw-gap-4"
+                id="Card1"
+              ></div>
+            </div>
+
+            <div class="tw-p-2">
+              <h3 class="tw-text-white tw-ml-2">Trending</h3>
+              <br />
+
+              <div
+                class="tw-rounded-lg tw-w-44 d-flex tw-gap-4"
+                id="mainCard"
+              ></div>
+            </div>
+
+            <div class="tw-p-2">
+              <h3 class="text-white tw-ml-2">Bollywood top 50</h3>
+              <br />
+              <div class="tw-w-44 d-flex tw-gap-4" id="card2"></div>
+            </div>
+
+            <div class="tw-p-2">
+              <h3 class="text-white tw-ml-2">Independent Artists</h3>
+              <br />
+              <div class="tw-w-44 d-flex tw-gap-4" id="card3"></div>
+            </div>
+            <br />
+            <div class="tw-p-2">
+              <h3 class="text-white tw-ml-2">English Songs</h3>
+              <br />
+              <div class="tw-w-44 d-flex tw-gap-4" id="card4"></div>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- DETAILS SECTION -->
+
+
+        <div class="col-3">
+          <div
+            class="tw-h-[82vh] d-flex flex-column gap-2 tw-p-2 tw-overflow-y-auto"
+          >
+            <div>
+              <h5 class="tw-text-white">Details</h5>
+            </div>
+
+            <div class="p-2" id="SideImage">
+              <img src="" alt="" id="SongPoster" />
+            </div>
+
+            <div id="SideName">
+              <h4 id="SongName"></h4>
+              <p class="tw-text-gray-500 d-inline-block" id="album"></p>
+
+              <span id="date" class="tw-text-gray-500 tw-ml-2"></span>
+            </div>
+            <div class="">
+              <h3 class="text-white" id="Artist"></h3>
+
+              <div id="artistContainer" class="d-flex gap-4 tw-mt-3">
+                <div>
+                  <img
+                    src=""
+                    alt=""
+                    id="artistImage"
+                    class="tw-w-24 tw-rounded-md tw-outline hover:tw-outline-red-600 tw-h-24 tw-opacity-0"
+                  />
+                  <h6 id="artistName" class="tw-text-gray-500 tw-p-2"></h6>
+                </div>
+
+                <div>
+                  <img
+                    src=""
+                    alt=""
+                    id="artistImage2"
+                    class="tw-w-24 tw-rounded-md tw-outline hover:tw-outline-red-600 tw-h-24 tw-opacity-0"
+                  />
+                  <h6
+                    id="artistName2"
+                    class="tw-text-gray-500 tw-p-2 tw-ml-1"
+                  ></h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+            <!-- PLAY SECTION -->
+
+      <div class="row tw-h-[96px]">
+        <div class="col-2">
+          <div class="flex mt-2 play-image">
+            <img
+              src="./assests/images/eps10-white-user-icon-or-logo-in-simple-flat-trendy-modern-style-isolated-on-black-background-free-vector.jpg"
+              alt="Poster of song"
+              id="image2"
+              class="tw-object-cover tw-bg-black rounded-3"
+            />
+            <span class="tw-w-16" id="name1"> Song Name </span>
+          </div>
+        </div>
+
+        <div class="col-7">
+          <div class="mt-1" id="playerContainr">
+            <input type="range" max="0" class="tw-w-full" id="progress" />
+            <br />
+
+            <div
+              class="d-flex justify-content-center align-content-center gap-5 mt-1"
+            >
+              <div
+                id="backward"
+                class="mt-2 rounded-circle d-flex justify-content-center align-items-center tw-bg-green-600 tw-w-8 tw-h-8"
+              >
+                <i
+                  class="tw-text-xl fa-solid fa-backward tw-text-white tw-cursor-pointer"
+                ></i>
+              </div>
+
+              <div
+                id="play/pause"
+                class="rounded-circle d-flex justify-content-center align-items-center tw-bg-green-600 tw-w-12 tw-h-12"
+              >
+                <i
+                  class="tw-text-xl fa-solid fa-play tw-text-white tw-cursor-pointer"
+                  id="CtrlIcon"
+                ></i>
+              </div>
+              <div
+                id="forward"
+                class="mt-2 rounded-circle d-flex justify-content-center align-items-center tw-bg-green-600 tw-w-8 tw-h-8"
+              >
+                <i
+                  class="tw-text-xl fa-solid fa-forward tw-text-white tw-cursor-pointer"
+                ></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="mt-4 d-flex justify-content-evenly">
+            <span>
+              <i
+                class="fa-solid fa-heart text-white tw-text-2xl tw-cursor-pointer"
+                id="heart"
+                title="Like Song"
+              ></i>
+            </span>
+
+            <span>
+              <i
+                class="fa-solid fa-list tw-text-2xl text-white tw-cursor-pointer"
+                id="queue"
+                title="Add to your playlist"
+              ></i>
+            </span>
+
+            <span>
+              <i
+                class="fa-solid fa-microphone tw-text-2xl text-white tw-cursor-pointer"
+                title="Lyrics"
+                id="lyrics"
+              ></i>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
