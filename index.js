@@ -92,9 +92,39 @@ if (audio.play()) {
     },500);
   
 }
-audio.onchange = function () {
+progress.onchange = function (params) {
     audio.play();
-    audio.currentTime = progress.value;
+    audio.currentTime = progress.value
+}
+const volume = document.getElementById("volume");
+volume.onchange = function (params) {
+    audio.volume = volume.value/100;
+}
+audio.volume = volume.value/100;
+
+let volumeValue = volume.value/100;
+
+const sound = document.getElementById("sound");
+
+
+sound.onclick = function () {
+  
+   const volIcon = document.getElementById("volIcon");
+   volIcon.classList.toggle("fa-volume-high");
+   volIcon.classList.toggle("fa-volume-xmark");
+   if (volIcon.classList.contains("fa-volume-xmark")) {
+       audio.volume = 0;
+       volume.value = 0;
+       sound.title = `speaker:0%`
+   }
+
+   if (volIcon.classList.contains("fa-volume-high")) {
+    audio.volume = 0.6;
+    volume.value = audio.volume*100;
+    sound.title = `speaker:${volumeValue*100}%`;
+}
+
+
 }
 
 
@@ -294,6 +324,8 @@ heart.addEventListener('click',()=>{
 //  Implementing Play Section
 
 function clicked2(image_source,song_name,song,singer,album_name,date,id) {
+    const repeat = document.getElementById("repeat");
+
     const image = document.getElementById("image2");
     image.src = image_source;
     image.alt = id;
@@ -359,6 +391,69 @@ function clicked2(image_source,song_name,song,singer,album_name,date,id) {
                  clicked2(element.image_source,element.song_name,element.quality.low,element.singers,element.album_name,element.release_date,element.id);
                 })
     })
+
+    audio.addEventListener('ended',()=>{
+        if (repeat.classList.contains("clicked")) {
+                 
+            const nextSong = All.filter((element)=>{
+                return element.id === id;
+                   });
+                   nextSong.map((element)=>{
+                     audio.src = element.quality.low;
+                     image.src = element.image_source;
+                     name.innerHTML = element.song_name;
+                     name2.innerHTML = song_name;
+                     image2.src = element.image_source;
+                     ReleaseDate.innerHTML =element.release_date ;
+                     album.innerHTML = element.album_name;
+             
+                       
+              const ArtistImage = document.getElementById("artistImage");
+              const Artistname = document.getElementById("artistName");
+               ArtistImage.src  = element.singers[0]?.image;
+                ArtistImage.classList.remove("tw-opacity-0");
+               Artistname.innerHTML = element.singers[0]?.name;
+               const ArtistImage2 = document.getElementById("artistImage2");
+               const Artistname2 = document.getElementById("artistName2");
+               ArtistImage2.src  = element.singers[1]?.image;
+              ArtistImage2.classList.remove("tw-opacity-0");
+             Artistname2.innerHTML = element.singers[1]?.name;
+                      })
+              }
+        if (!repeat.classList.contains("clicked")) {
+            id = id+1;
+            const nextSong = All.filter((element)=>{
+                return element.id === id;
+                   });
+                   nextSong.map((element)=>{
+                     audio.src = element.quality.low;
+                     image.src = element.image_source;
+                     name.innerHTML = element.song_name;
+                     name2.innerHTML = song_name;
+                     image2.src = element.image_source;
+                     ReleaseDate.innerHTML =element.release_date ;
+                     album.innerHTML = element.album_name;
+             
+                       
+              const ArtistImage = document.getElementById("artistImage");
+              const Artistname = document.getElementById("artistName");
+               ArtistImage.src  = element.singers[0]?.image;
+                ArtistImage.classList.remove("tw-opacity-0");
+               Artistname.innerHTML = element.singers[0]?.name;
+               const ArtistImage2 = document.getElementById("artistImage2");
+               const Artistname2 = document.getElementById("artistName2");
+               ArtistImage2.src  = element.singers[1]?.image;
+              ArtistImage2.classList.remove("tw-opacity-0");
+             Artistname2.innerHTML = element.singers[1]?.name;
+                     })
+}
+        
+ })
+
+  
+repeat.onclick = function () {
+     repeat.classList.add("clicked")
+}
 
 }
 
@@ -3825,6 +3920,7 @@ Haan Aa Haaniya Teri
 
 const lyrics = document.getElementById("lyrics");
 lyrics.addEventListener('click',lyricsClicked)
+
 
 
 

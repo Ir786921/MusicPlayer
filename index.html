@@ -906,12 +906,20 @@
 
         <div class="col-7">
           <div class="mt-1" id="playerContainr">
-            <input type="range" max="0" class="tw-w-full" id="progress" />
+            <input type="range"  class="tw-w-full" id="progress" />
             <br />
 
             <div
-              class="d-flex justify-content-center align-content-center gap-5 mt-1"
+              class="d-flex justify-content-center align-content-center gap-5 mt-1 tw-relative"
             >
+            <div
+            title="repeat"
+            id="repeat"
+            class="mt-2 rounded-circle d-flex justify-content-center align-items-center tw-bg-green-600 tw-w-8 tw-h-8 tw-absolute tw-left-0 tw-ml-5"
+          >
+          <i class="fa-solid fa-repeat tw-text-xl tw-text-white tw-cursor-pointer"></i>
+          </div>
+                                   
               <div
                 id="backward"
                 class="mt-2 rounded-circle d-flex justify-content-center align-items-center tw-bg-green-600 tw-w-8 tw-h-8"
@@ -938,6 +946,12 @@
                   class="tw-text-xl fa-solid fa-forward tw-text-white tw-cursor-pointer"
                 ></i>
               </div>
+              <div
+              id="repeat"
+              class="mt-2  d-flex justify-content-center align-items-center tw-absolute tw-right-0 tw-mr-5"
+            >
+            <div class="rounded-circle d-flex justify-content-center align-items-center tw-bg-green-600 tw-w-8 tw-h-8 d-inline-block" id="sound" ><i class="fa-solid fa-volume-high text-white" style="cursor: pointer;" id="volIcon"></i></div> &nbsp;&nbsp; <input type="range" id="volume">
+            </div>
             </div>
           </div>
         </div>
