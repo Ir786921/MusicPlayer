@@ -329,8 +329,8 @@ function clicked2(image_source,song_name,song,singer,album_name,date,id) {
     const image = document.getElementById("image2");
     image.src = image_source;
     image.alt = id;
-    play.classList.remove("fa-circle-play");
-    play.classList.add("fa-circle-pause");
+    // play.classList.remove("fa-circle-play");
+    // play.classList.add("fa-circle-pause");
 
     const name = document.getElementById("name1");
     const ReleaseDate = document.getElementById("date") ;
